@@ -2,3 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|Stepper Motor with Leadscrew|1|$25.99|https://www.amazon.com/gp/product/B01DVD87Q6/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1|
+|20mm Linear Rod|2|$4.00|www.example.com|
+|Total: |3|$29.99| |
+
+ 3xCOG MSRP: $89.97
