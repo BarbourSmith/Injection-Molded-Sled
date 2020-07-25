@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.06808199121522694,
-            "y": 0.1992337164750958,
+            "x": 0.06442166910688141,
+            "y": 0.19157088122605365,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -80,7 +80,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 50
+                            "ioValue": 75
                         }
                     ]
                 },
@@ -133,7 +133,7 @@
                             "ioValues": [
                                 {
                                     "name": "Radius",
-                                    "ioValue": 25
+                                    "ioValue": 37.5
                                 },
                                 {
                                     "name": "Height",
@@ -310,7 +310,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 44
+                                    "ioValue": 69
                                 }
                             ]
                         },
@@ -359,13 +359,13 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.0841874084919473,
-                            "y": 0.8697318007662835,
+                            "x": 0.09150805270863835,
+                            "y": 0.8735632183908046,
                             "uniqueID": 326936,
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 48
+                                    "ioValue": 73
                                 }
                             ]
                         },
@@ -589,13 +589,13 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.1683748169838946,
-                                    "y": 0.89272030651341,
+                                    "x": 0.16398243045387995,
+                                    "y": 0.9080459770114941,
                                     "uniqueID": 199484,
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 48
+                                            "ioValue": 73
                                         }
                                     ]
                                 },
@@ -915,6 +915,10 @@
                 },
                 {
                     "name": "3D shape 4",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 5",
                     "ioValue": 10
                 }
             ]
@@ -1755,6 +1759,13 @@
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 101505,
+            "ap2ID": 709782
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 5",
+            "ap2Primary": false,
+            "ap1ID": 376066,
             "ap2ID": 709782
         },
         {
