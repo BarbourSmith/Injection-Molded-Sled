@@ -92,26 +92,60 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Torus",
-                            "x": 0.16471449487554907,
-                            "y": 0.29885057471264365,
+                            "x": 0.13469985358711567,
+                            "y": 0.2720306513409962,
                             "uniqueID": 475625,
                             "projectID": "282504534",
                             "ioValues": [
                                 {
-                                    "name": "Diameter",
+                                    "name": "Radius",
                                     "ioValue": 140
                                 },
                                 {
                                     "name": "Height",
                                     "ioValue": 6
+                                },
+                                {
+                                    "name": "Resolution",
+                                    "ioValue": 55
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Difference",
+                            "name": "Difference",
+                            "x": 0.3770131771595901,
+                            "y": 0.2375478927203065,
+                            "uniqueID": 609087,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Torus",
+                            "x": 0.13177159590043924,
+                            "y": 0.5019157088122606,
+                            "uniqueID": 451682,
+                            "projectID": "282504534",
+                            "ioValues": [
+                                {
+                                    "name": "Radius",
+                                    "ioValue": 25
+                                },
+                                {
+                                    "name": "Height",
+                                    "ioValue": 6
+                                },
+                                {
+                                    "name": "Resolution",
+                                    "ioValue": 55
                                 }
                             ]
                         },
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.15300146412884333,
-                            "y": 0.6283524904214559,
+                            "x": 0.1493411420204978,
+                            "y": 0.7662835249042146,
                             "uniqueID": 867742,
                             "ioValues": [
                                 {
@@ -125,18 +159,10 @@
                             ]
                         },
                         {
-                            "atomType": "Difference",
-                            "name": "Difference",
-                            "x": 0.43191800878477304,
-                            "y": 0.524904214559387,
-                            "uniqueID": 609087,
-                            "ioValues": []
-                        },
-                        {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.28330893118594436,
-                            "y": 0.6436781609195402,
+                            "x": 0.3550512445095168,
+                            "y": 0.7241379310344828,
                             "uniqueID": 644278,
                             "ioValues": [
                                 {
@@ -163,16 +189,16 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 609087
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 867742,
                             "ap2ID": 644278
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 609087
                         },
                         {
                             "ap1Name": "geometry",
