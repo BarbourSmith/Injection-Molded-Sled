@@ -2,8 +2,9 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|M3 x 30 Bolt|4|$0.52|https://www.mcmaster.com/92095a187|
 |Thin NEMA14 Stepper Motor|1|$22.05|www.example.cohttps://www.amazon.com/gp/product/B00W8XJ6RK|
 |20mm Linear Rod|2|$4.00|www.example.com|
-|Total: |3|$26.05| |
+|Total: |7|$26.57| |
 
- 3xCOG MSRP: $78.15
+ 3xCOG MSRP: $79.71
