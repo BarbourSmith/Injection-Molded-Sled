@@ -2,8 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Thin NEMA14 Stepper Motor|1|$22.05|www.example.cohttps://www.amazon.com/gp/product/B00W8XJ6RK|
-|20mm Linear Rod|2|$4.00|www.example.com|
-|Total: |3|$26.05| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $78.15
+ 3xCOG MSRP: $0.00
