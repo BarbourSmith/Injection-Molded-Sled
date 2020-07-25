@@ -1202,24 +1202,45 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.17789165446559296,
+                    "y": 0.4904214559386973,
+                    "uniqueID": 601022,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
-                    "name": "Nema 17 Stepper Motor with Leadscrew",
-                    "x": 0.10468521229868229,
-                    "y": 0.48275862068965514,
-                    "uniqueID": 351199,
-                    "projectID": "282485509",
+                    "name": "Thin NEMA 14 Stepper Motor",
+                    "x": 0.08857979502196194,
+                    "y": 0.5287356321839081,
+                    "uniqueID": 426858,
+                    "projectID": "282487784",
                     "ioValues": []
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.2335285505124451,
-                    "y": 0.5019157088122606,
+                    "x": 0.2679355783308931,
+                    "y": 0.524904214559387,
                     "uniqueID": 277467,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 135
+                            "ioValue": 130
                         },
                         {
                             "name": "yDist",
@@ -1308,6 +1329,15 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Nema 17 Stepper Motor with Leadscrew",
+                    "x": 0.5051244509516838,
+                    "y": 0.7318007662835249,
+                    "uniqueID": 351199,
+                    "projectID": "282485509",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -1345,11 +1375,18 @@
                     "ap2ID": 998620
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 601022,
+                    "ap2ID": 277467
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 351199,
-                    "ap2ID": 277467
+                    "ap1ID": 426858,
+                    "ap2ID": 601022
                 },
                 {
                     "ap1Name": "geometry",
@@ -1386,6 +1423,26 @@
                     "ap2ID": 998620
                 }
             ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "PCB Mounts",
+            "x": 0.13616398243045388,
+            "y": 0.9195402298850576,
+            "uniqueID": 727322,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
             "fileTypeVersion": 1
         },
         {
