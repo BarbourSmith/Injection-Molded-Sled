@@ -25,7 +25,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 294
+                            "ioValue": 300
                         }
                     ]
                 },
@@ -2076,8 +2076,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB Mounts",
-            "x": 0.11200585651537336,
-            "y": 0.8659003831417625,
+            "x": 0.09415262636273537,
+            "y": 0.846743295019157,
             "uniqueID": 727322,
             "ioValues": [],
             "topLevel": false,
@@ -2412,12 +2412,21 @@
         {
             "atomType": "Molecule",
             "name": "Hardware",
-            "x": 0.18081991215226942,
-            "y": 0.8697318007662835,
+            "x": 0.1833498513379584,
+            "y": 0.8659003831417625,
             "uniqueID": 376066,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "20mm Linear Rod",
+                    "x": 0.056491575817641235,
+                    "y": 0.24521072796934865,
+                    "uniqueID": 655513,
+                    "projectID": "229495787",
+                    "ioValues": []
+                },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
@@ -2442,15 +2451,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "20mm Linear Rod",
-                    "x": 0.09736456808199122,
-                    "y": 0.27586206896551724,
-                    "uniqueID": 655513,
-                    "projectID": "229495787",
-                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -2970,6 +2970,15 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Nema 17 Stepper Motor with Leadscrew",
+                    "x": 0.5827552031714569,
+                    "y": 0.735632183908046,
+                    "uniqueID": 817655,
+                    "projectID": "282485509",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -2978,13 +2987,6 @@
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 548894,
-                    "ap2ID": 998620
-                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
@@ -2998,6 +3000,13 @@
                     "ap2Primary": true,
                     "ap1ID": 655513,
                     "ap2ID": 548894
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 548894,
+                    "ap2ID": 998620
                 },
                 {
                     "ap1Name": "geometry",
@@ -3110,5 +3119,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "4"
+    "circleSegmentSize": "10"
 }
