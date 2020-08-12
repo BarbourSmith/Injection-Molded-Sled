@@ -125,10 +125,6 @@
                                 {
                                     "name": "geometry2",
                                     "ioValue": ""
-                                },
-                                {
-                                    "name": "geometry1",
-                                    "ioValue": ""
                                 }
                             ]
                         },
