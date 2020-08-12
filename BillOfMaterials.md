@@ -2,11 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|8mm Lead Screw|1|$5.00|https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS|
-|M3 x 30 Bolt|4|$0.52|https://www.mcmaster.com/92095a187|
-|Thin NEMA14 Stepper Motor|1|$22.05|www.example.cohttps://www.amazon.com/gp/product/B00W8XJ6RK|
-|20mm Linear Rod|2|$4.00|www.example.com|
-|5mm to 8mm Shaft Coupler|1|$1.00|www.example.com|
-|Total: |9|$32.57| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $97.71
+ 3xCOG MSRP: $0.00
