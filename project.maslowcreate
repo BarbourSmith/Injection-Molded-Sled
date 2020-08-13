@@ -10,7 +10,7 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.06442166910688141,
+            "x": 0.06661786237188873,
             "y": 0.19157088122605365,
             "uniqueID": 388087,
             "ioValues": [],
@@ -25,7 +25,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 300
+                            "ioValue": 294
                         }
                     ]
                 },
@@ -59,10 +59,6 @@
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 3",
                             "ioValue": 10
                         },
                         {
@@ -894,13 +890,6 @@
                     "ap2Primary": false,
                     "ap1ID": 618652,
                     "ap2ID": 630346
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 453187,
-                    "ap2ID": 344517
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1993,11 +1982,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 11.5
+                            "ioValue": 34
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 34
+                            "ioValue": 11.5
                         },
                         {
                             "name": "zDist",
@@ -2027,11 +2016,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 11.5
+                            "ioValue": -34
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -34
+                            "ioValue": 11.5
                         },
                         {
                             "name": "zDist",
@@ -2086,11 +2075,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -38
+                            "ioValue": -34
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 34
+                            "ioValue": 38
                         },
                         {
                             "name": "zDist",
@@ -2120,11 +2109,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -38
+                            "ioValue": -34
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -34
+                            "ioValue": -38
                         },
                         {
                             "name": "zDist",
@@ -2341,10 +2330,28 @@
                             "ioValues": []
                         },
                         {
+                            "atomType": "GitHubMolecule",
+                            "name": "Nema 17 Stepper Motor with Leadscrew",
+                            "x": 0.13689604685212298,
+                            "y": 0.35249042145593873,
+                            "uniqueID": 848538,
+                            "projectID": "282485509",
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "8mm Lead Screw",
+                            "x": 0.3360175695461201,
+                            "y": 0.18007662835249041,
+                            "uniqueID": 518968,
+                            "projectID": "229500250",
+                            "ioValues": []
+                        },
+                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.2335285505124451,
-                            "y": 0.2950191570881226,
+                            "x": 0.2774524158125915,
+                            "y": 0.3448275862068966,
                             "uniqueID": 946652,
                             "ioValues": [
                                 {
@@ -2357,18 +2364,9 @@
                                 },
                                 {
                                     "name": "z-axis degrees",
-                                    "ioValue": 90
+                                    "ioValue": 0
                                 }
                             ]
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "8mm Lead Screw",
-                            "x": 0.3360175695461201,
-                            "y": 0.18007662835249041,
-                            "uniqueID": 518968,
-                            "projectID": "229500250",
-                            "ioValues": []
                         },
                         {
                             "atomType": "Translate",
@@ -2432,14 +2430,6 @@
                             "y": 0.3486590038314176,
                             "uniqueID": 578310,
                             "ioValues": [
-                                {
-                                    "name": "3D shape 1",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
-                                },
                                 {
                                     "name": "3D shape 3",
                                     "ioValue": 10
@@ -2545,15 +2535,6 @@
                         },
                         {
                             "atomType": "GitHubMolecule",
-                            "name": "Nema 17 Stepper Motor with Leadscrew",
-                            "x": 0.6939970717423133,
-                            "y": 0.6551724137931034,
-                            "uniqueID": 848538,
-                            "projectID": "282485509",
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
                             "name": "5mm to 8mm Shaft Coupler",
                             "x": 0.4575402635431918,
                             "y": 0.8812260536398466,
@@ -2574,15 +2555,8 @@
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 889211,
+                            "ap1ID": 848538,
                             "ap2ID": 946652
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 3",
-                            "ap2Primary": false,
-                            "ap1ID": 946652,
-                            "ap2ID": 578310
                         },
                         {
                             "ap1Name": "Geometry",
@@ -2590,6 +2564,13 @@
                             "ap2Primary": true,
                             "ap1ID": 518968,
                             "ap2ID": 116900
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 946652,
+                            "ap2ID": 578310
                         },
                         {
                             "ap1Name": "geometry",
@@ -2604,13 +2585,6 @@
                             "ap2Primary": false,
                             "ap1ID": 469257,
                             "ap2ID": 737813
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": 961685,
-                            "ap2ID": 578310
                         },
                         {
                             "ap1Name": "geometry",
@@ -2658,13 +2632,6 @@
                             "ap2Name": "3D shape 4",
                             "ap2Primary": false,
                             "ap1ID": 600492,
-                            "ap2ID": 578310
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 1",
-                            "ap2Primary": false,
-                            "ap1ID": 235481,
                             "ap2ID": 578310
                         },
                         {
