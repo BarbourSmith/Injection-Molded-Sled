@@ -474,7 +474,16 @@
                                     "x": 0.564484126984127,
                                     "y": 0.3065134099616858,
                                     "uniqueID": 748067,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "3D shape 1",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "3D shape 2",
+                                            "ioValue": 10
+                                        }
+                                    ]
                                 },
                                 {
                                     "atomType": "Circle",
@@ -529,12 +538,7 @@
                                     "x": 0.7423133235724744,
                                     "y": 0.4597701149425288,
                                     "uniqueID": 923700,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry1",
-                                            "ioValue": ""
-                                        }
-                                    ]
+                                    "ioValues": []
                                 },
                                 {
                                     "atomType": "Difference",
@@ -620,6 +624,13 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 793620,
+                                    "ap2ID": 748067
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "Shape",
                                     "ap2Primary": false,
                                     "ap1ID": 283344,
@@ -643,8 +654,22 @@
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry1",
                                     "ap2Primary": false,
+                                    "ap1ID": 748067,
+                                    "ap2ID": 923700
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry1",
+                                    "ap2Primary": false,
                                     "ap1ID": 471813,
                                     "ap2ID": 139484
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 627334,
+                                    "ap2ID": 748067
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -652,6 +677,12 @@
                                     "ap2Primary": false,
                                     "ap1ID": 689684,
                                     "ap2ID": 248214
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 923700
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -779,10 +810,6 @@
                     "y": 0.5632183908045977,
                     "uniqueID": 235543,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "tag",
                             "ioValue": "Plastic"
