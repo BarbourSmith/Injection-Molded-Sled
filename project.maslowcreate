@@ -638,6 +638,24 @@
                                     "ioValues": []
                                 },
                                 {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "Linear Pattern",
+                                    "x": 0.7996031746031745,
+                                    "y": 0.6973180076628352,
+                                    "uniqueID": 186372,
+                                    "projectID": "304166099",
+                                    "ioValues": [
+                                        {
+                                            "name": "Spacing",
+                                            "ioValue": 20
+                                        },
+                                        {
+                                            "name": "Number",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Output",
                                     "name": "Output",
                                     "x": 0.9853587115666179,
@@ -680,6 +698,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 283344,
                                     "ap2ID": 183391
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape",
+                                    "ap2Primary": false,
+                                    "ap1ID": 283344,
+                                    "ap2ID": 186372
                                 },
                                 {
                                     "ap1Name": "geometry",
