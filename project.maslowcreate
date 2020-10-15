@@ -2704,6 +2704,19 @@
                     ]
                 },
                 {
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 0.7281746031746031,
+                    "y": 0.6398467432950191,
+                    "uniqueID": 817241,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -2754,6 +2767,7 @@
                     "ap1ID": 277467,
                     "ap2ID": 998620
                 },
+                null,
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
@@ -2780,6 +2794,13 @@
                     "ap2Primary": false,
                     "ap1ID": 693544,
                     "ap2ID": 998620
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 693544,
+                    "ap2ID": 817241
                 }
             ],
             "fileTypeVersion": 1
