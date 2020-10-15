@@ -116,14 +116,6 @@
                             ]
                         },
                         {
-                            "atomType": "Difference",
-                            "name": "Difference",
-                            "x": 0.3770131771595901,
-                            "y": 0.2375478927203065,
-                            "uniqueID": 609087,
-                            "ioValues": []
-                        },
-                        {
                             "atomType": "GitHubMolecule",
                             "name": "Torus",
                             "x": 0.13689604685212298,
@@ -161,6 +153,14 @@
                                     "ioValue": 10
                                 }
                             ]
+                        },
+                        {
+                            "atomType": "Difference",
+                            "name": "Difference",
+                            "x": 0.5436507936507936,
+                            "y": 0.3333333333333333,
+                            "uniqueID": 609087,
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rectangle",
@@ -209,12 +209,6 @@
                             "ap2ID": 713092
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 609087
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "3D shape 1",
                             "ap2Primary": false,
@@ -227,6 +221,12 @@
                             "ap2Primary": false,
                             "ap1ID": 713092,
                             "ap2ID": 609087
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 609087
                         },
                         {
                             "ap1Name": "geometry",
