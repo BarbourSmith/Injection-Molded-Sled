@@ -379,6 +379,24 @@
                             "topLevel": false,
                             "allAtoms": [
                                 {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "Linear Pattern",
+                                    "x": 0.28273809523809523,
+                                    "y": 0.3754789272030651,
+                                    "uniqueID": 557251,
+                                    "projectID": "304166099",
+                                    "ioValues": [
+                                        {
+                                            "name": "Spacing",
+                                            "ioValue": 20
+                                        },
+                                        {
+                                            "name": "Number",
+                                            "ioValue": 14
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
                                     "x": 0.06349206349206349,
@@ -436,10 +454,6 @@
                                     "y": 0.42528735632183906,
                                     "uniqueID": 660367,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
                                         {
                                             "name": "xDist",
                                             "ioValue": 0
@@ -595,6 +609,13 @@
                             ],
                             "allConnectors": [
                                 {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 557251,
+                                    "ap2ID": 660367
+                                },
+                                {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
@@ -607,6 +628,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 793620,
                                     "ap2ID": 684528
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape",
+                                    "ap2Primary": false,
+                                    "ap1ID": 283344,
+                                    "ap2ID": 557251
                                 },
                                 {
                                     "ap1Name": "geometry",
