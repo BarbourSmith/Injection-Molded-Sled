@@ -116,6 +116,19 @@
                             ]
                         },
                         {
+                            "atomType": "Union",
+                            "name": "Union",
+                            "x": 0.3472222222222222,
+                            "y": 0.2835249042145594,
+                            "uniqueID": 925935,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "GitHubMolecule",
                             "name": "Torus",
                             "x": 0.13689604685212298,
@@ -138,29 +151,17 @@
                             ]
                         },
                         {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.27964860907759886,
-                            "y": 0.4406130268199233,
-                            "uniqueID": 713092,
-                            "ioValues": [
-                                {
-                                    "name": "3D shape 1",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Difference",
                             "name": "Difference",
                             "x": 0.5436507936507936,
                             "y": 0.3333333333333333,
                             "uniqueID": 609087,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "geometry1",
+                                    "ioValue": ""
+                                }
+                            ]
                         },
                         {
                             "atomType": "Rectangle",
@@ -203,24 +204,10 @@
                     "allConnectors": [
                         {
                             "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": 475625,
-                            "ap2ID": 713092
-                        },
-                        {
-                            "ap1Name": "Geometry",
                             "ap2Name": "3D shape 1",
                             "ap2Primary": false,
                             "ap1ID": 451682,
-                            "ap2ID": 713092
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry1",
-                            "ap2Primary": false,
-                            "ap1ID": 713092,
-                            "ap2ID": 609087
+                            "ap2ID": 925935
                         },
                         {
                             "ap1Name": "geometry",
