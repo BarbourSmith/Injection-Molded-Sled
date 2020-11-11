@@ -955,8 +955,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.42093704245973645,
-                    "y": 0.4559386973180076,
+                    "x": 0.4150805270863836,
+                    "y": 0.45210727969348663,
                     "uniqueID": 236398,
                     "ioValues": [
                         {
@@ -1657,6 +1657,26 @@
                             "ap1ID": 597654
                         }
                     ],
+                    "fileTypeVersion": 1
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Keepout",
+                    "x": 0.3557833089311859,
+                    "y": 0.8620689655172414,
+                    "uniqueID": 109371,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
                     "fileTypeVersion": 1
                 },
                 {
