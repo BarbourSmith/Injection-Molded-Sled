@@ -1674,17 +1674,8 @@
                             "x": 0.2518301610541728,
                             "y": 0.2950191570881226,
                             "uniqueID": 587055,
-                            "ioValues": [
-                                {
-                                    "name": "x",
-                                    "ioValue": 1
-                                },
-                                {
-                                    "name": "y",
-                                    "ioValue": 1
-                                }
-                            ],
-                            "currentEquation": "x + y"
+                            "ioValues": [],
+                            "currentEquation": "L/2"
                         },
                         {
                             "atomType": "Constant",
@@ -1723,10 +1714,6 @@
                             "uniqueID": 251009,
                             "ioValues": [
                                 {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
                                     "name": "yDist",
                                     "ioValue": 0
                                 },
@@ -1750,6 +1737,15 @@
                             ]
                         },
                         {
+                            "atomType": "Color",
+                            "name": "Color",
+                            "x": 0.62298682284041,
+                            "y": 0.4904214559386973,
+                            "uniqueID": 813257,
+                            "ioValues": [],
+                            "selectedColorIndex": 0
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9853587115666179,
@@ -1759,6 +1755,13 @@
                     ],
                     "allConnectors": [
                         {
+                            "ap1Name": "result",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": 587055,
+                            "ap2ID": 251009
+                        },
+                        {
                             "ap1Name": "number",
                             "ap2Name": "x length",
                             "ap2Primary": false,
@@ -1766,11 +1769,25 @@
                             "ap2ID": 180432
                         },
                         {
+                            "ap1Name": "number",
+                            "ap2Name": "L",
+                            "ap2Primary": false,
+                            "ap1ID": 769403,
+                            "ap2ID": 587055
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 180432,
                             "ap2ID": 199344
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 251009,
+                            "ap2ID": 813257
                         },
                         {
                             "ap1Name": "geometry",
