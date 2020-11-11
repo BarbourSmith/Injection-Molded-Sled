@@ -1080,14 +1080,14 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 26.5
+                                    "ioValue": 30
                                 }
                             ]
                         },
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.5937042459736457,
+                            "x": 0.5944363103953147,
                             "y": 0.37931034482758624,
                             "uniqueID": 421072,
                             "ioValues": [
@@ -1168,8 +1168,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Bolts",
-                            "x": 0.49267935578330896,
-                            "y": 0.8160919540229885,
+                            "x": 0.49121522693997066,
+                            "y": 0.8237547892720306,
                             "uniqueID": 563058,
                             "ioValues": [],
                             "topLevel": false,
@@ -1245,8 +1245,8 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.5358711566617862,
-                                    "y": 0.7318007662835249,
+                                    "x": 0.5351390922401171,
+                                    "y": 0.7241379310344828,
                                     "uniqueID": 826611,
                                     "ioValues": [
                                         {
