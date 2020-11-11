@@ -1677,7 +1677,7 @@
                             "ioValues": [
                                 {
                                     "name": "number",
-                                    "ioValue": null
+                                    "ioValue": 35
                                 }
                             ],
                             "evolve": false,
@@ -1694,10 +1694,6 @@
                                 {
                                     "name": "x length",
                                     "ioValue": 35
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 24
                                 }
                             ]
                         },
@@ -1744,6 +1740,13 @@
                         }
                     ],
                     "allConnectors": [
+                        {
+                            "ap1Name": "number",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": 769403,
+                            "ap2ID": 180432
+                        },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
