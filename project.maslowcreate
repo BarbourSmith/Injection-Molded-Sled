@@ -372,12 +372,25 @@
                         {
                             "atomType": "Molecule",
                             "name": "Cross Hatch",
-                            "x": 0.4077598828696925,
-                            "y": 0.8122605363984674,
+                            "x": 0.40409956076134695,
+                            "y": 0.8275862068965518,
                             "uniqueID": 885531,
                             "ioValues": [],
                             "topLevel": false,
                             "allAtoms": [
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.15080527086383602,
+                                    "y": 0.36015325670498083,
+                                    "uniqueID": 283344,
+                                    "ioValues": [
+                                        {
+                                            "name": "height",
+                                            "ioValue": 16
+                                        }
+                                    ]
+                                },
                                 {
                                     "atomType": "GitHubMolecule",
                                     "name": "Linear Pattern",
@@ -431,19 +444,6 @@
                                         {
                                             "name": "z-axis degrees",
                                             "ioValue": -45
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "Extrude",
-                                    "name": "Extrude",
-                                    "x": 0.16666666666666666,
-                                    "y": 0.4636015325670498,
-                                    "uniqueID": 283344,
-                                    "ioValues": [
-                                        {
-                                            "name": "height",
-                                            "ioValue": 6
                                         }
                                     ]
                                 },
@@ -522,13 +522,13 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.5929721815519766,
-                                    "y": 0.6398467432950191,
+                                    "x": 0.5922401171303074,
+                                    "y": 0.6360153256704981,
                                     "uniqueID": 689684,
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 6
+                                            "ioValue": 16
                                         }
                                     ]
                                 },
@@ -581,21 +581,21 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.4084919472913617,
-                                    "y": 0.8888888888888888,
+                                    "x": 0.40702781844802344,
+                                    "y": 0.8850574712643677,
                                     "uniqueID": 431747,
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 6
+                                            "ioValue": 16
                                         }
                                     ]
                                 },
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.6859443631039532,
-                                    "y": 0.8045977011494253,
+                                    "x": 0.6866764275256223,
+                                    "y": 0.7854406130268199,
                                     "uniqueID": 248214,
                                     "ioValues": []
                                 },
@@ -608,6 +608,13 @@
                                 }
                             ],
                             "allConnectors": [
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape",
+                                    "ap2Primary": false,
+                                    "ap1ID": 283344,
+                                    "ap2ID": 557251
+                                },
                                 {
                                     "ap1Name": "Geometry",
                                     "ap2Name": "geometry",
@@ -628,13 +635,6 @@
                                     "ap2Primary": false,
                                     "ap1ID": 793620,
                                     "ap2ID": 748067
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "Shape",
-                                    "ap2Primary": false,
-                                    "ap1ID": 283344,
-                                    "ap2ID": 557251
                                 },
                                 {
                                     "ap1Name": "geometry",
