@@ -278,13 +278,13 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.3177159590043924,
-                            "y": 0.24904214559386972,
+                            "x": 0.3096632503660322,
+                            "y": 0.23371647509578544,
                             "uniqueID": 624068,
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 6
+                                    "ioValue": 16
                                 }
                             ]
                         },
@@ -323,7 +323,7 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 6
+                                    "ioValue": 16
                                 }
                             ]
                         },
@@ -338,8 +338,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.6266471449487555,
-                            "y": 0.421455938697318,
+                            "x": 0.6251830161054173,
+                            "y": 0.4444444444444444,
                             "uniqueID": 152651,
                             "ioValues": [
                                 {
@@ -520,6 +520,14 @@
                                     ]
                                 },
                                 {
+                                    "atomType": "Difference",
+                                    "name": "Difference",
+                                    "x": 0.7408491947291361,
+                                    "y": 0.4482758620689655,
+                                    "uniqueID": 923700,
+                                    "ioValues": []
+                                },
+                                {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
                                     "x": 0.5922401171303074,
@@ -531,14 +539,6 @@
                                             "ioValue": 16
                                         }
                                     ]
-                                },
-                                {
-                                    "atomType": "Difference",
-                                    "name": "Difference",
-                                    "x": 0.7423133235724744,
-                                    "y": 0.4597701149425288,
-                                    "uniqueID": 923700,
-                                    "ioValues": []
                                 },
                                 {
                                     "atomType": "Difference",
@@ -673,16 +673,16 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 923700
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry1",
                                     "ap2Primary": false,
                                     "ap1ID": 689684,
                                     "ap2ID": 248214
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": 923700
                                 },
                                 {
                                     "ap1Name": "geometry",
