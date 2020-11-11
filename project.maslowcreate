@@ -1660,27 +1660,10 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Union",
-                    "name": "Union",
-                    "x": 0.9027777777777777,
-                    "y": 0.4367816091954023,
-                    "uniqueID": 630289,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8118594436310396,
-                    "y": 0.7088122605363985,
+                    "x": 0.8360175695461202,
+                    "y": 0.4674329501915709,
                     "uniqueID": 224431,
                     "ioValues": [
                         {
@@ -1749,13 +1732,6 @@
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 298555,
-                    "ap2ID": 630289
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 298555,
                     "ap2ID": 224431
                 },
                 {
@@ -1777,13 +1753,6 @@
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 332656,
-                    "ap2ID": 630289
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 332656,
                     "ap2ID": 224431
                 },
                 {
@@ -1797,17 +1766,17 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 630289
+                    "ap1ID": 224431
                 }
             ],
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Union",
-            "name": "Union",
-            "x": 0.3333333333333333,
-            "y": 0.421455938697318,
-            "uniqueID": 949523,
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.33162518301610544,
+            "y": 0.39463601532567044,
+            "uniqueID": 680579,
             "ioValues": [
                 {
                     "name": "3D shape 1",
@@ -1932,8 +1901,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB Mounts",
-            "x": 0.09297218155197658,
-            "y": 0.8659003831417625,
+            "x": 0.10322108345534406,
+            "y": 0.7739463601532567,
             "uniqueID": 727322,
             "ioValues": [],
             "topLevel": false,
@@ -2752,34 +2721,34 @@
             "ap2Name": "3D shape 4",
             "ap2Primary": false,
             "ap1ID": 388087,
-            "ap2ID": 949523
+            "ap2ID": 680579
         },
         {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 3",
             "ap2Primary": false,
             "ap1ID": 101505,
-            "ap2ID": 949523
+            "ap2ID": 680579
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 949523
+            "ap1ID": 680579
         },
         {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 727322,
-            "ap2ID": 949523
+            "ap2ID": 680579
         },
         {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 376066,
-            "ap2ID": 949523
+            "ap2ID": 680579
         }
     ],
     "fileTypeVersion": 1,
