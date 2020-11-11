@@ -953,6 +953,27 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.42093704245973645,
+                    "y": 0.4559386973180076,
+                    "uniqueID": 236398,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Clamp",
                     "x": 0.2650073206442167,
@@ -1140,7 +1161,7 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 29
+                                    "ioValue": 32
                                 }
                             ]
                         },
@@ -1415,27 +1436,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.39751098096632503,
-                    "y": 0.6436781609195402,
-                    "uniqueID": 236398,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -1721,20 +1721,6 @@
                     "ap2ID": 236398
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 751113,
-                    "ap2ID": 236398
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 298555,
-                    "ap2ID": 224431
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1747,6 +1733,20 @@
                     "ap2Primary": true,
                     "ap1ID": 236398,
                     "ap2ID": 332656
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 751113,
+                    "ap2ID": 236398
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 298555,
+                    "ap2ID": 224431
                 },
                 {
                     "ap1Name": "geometry",
