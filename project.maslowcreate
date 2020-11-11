@@ -1743,7 +1743,7 @@
                             "y": 0.4904214559386973,
                             "uniqueID": 813257,
                             "ioValues": [],
-                            "selectedColorIndex": 0
+                            "selectedColorIndex": "12"
                         },
                         {
                             "atomType": "Output",
@@ -1795,7 +1795,8 @@
                             "ap2Primary": true,
                             "ap1ID": 199344,
                             "ap2ID": 251009
-                        }
+                        },
+                        null
                     ],
                     "fileTypeVersion": 1
                 },
