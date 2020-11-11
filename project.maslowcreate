@@ -1669,6 +1669,24 @@
                     "topLevel": false,
                     "allAtoms": [
                         {
+                            "atomType": "Equation",
+                            "name": "Equation",
+                            "x": 0.2518301610541728,
+                            "y": 0.2950191570881226,
+                            "uniqueID": 587055,
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 1
+                                },
+                                {
+                                    "name": "y",
+                                    "ioValue": 1
+                                }
+                            ],
+                            "currentEquation": "x + y"
+                        },
+                        {
                             "atomType": "Constant",
                             "name": "Length",
                             "x": 0.04538799414348463,
@@ -1687,13 +1705,13 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.15007320644216693,
-                            "y": 0.5210727969348659,
+                            "x": 0.14714494875549047,
+                            "y": 0.5325670498084291,
                             "uniqueID": 180432,
                             "ioValues": [
                                 {
-                                    "name": "x length",
-                                    "ioValue": 35
+                                    "name": "y length",
+                                    "ioValue": 24
                                 }
                             ]
                         },
@@ -1742,7 +1760,7 @@
                     "allConnectors": [
                         {
                             "ap1Name": "number",
-                            "ap2Name": "y length",
+                            "ap2Name": "x length",
                             "ap2Primary": false,
                             "ap1ID": 769403,
                             "ap2ID": 180432
