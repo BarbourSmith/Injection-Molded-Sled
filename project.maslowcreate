@@ -955,8 +955,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.4092240117130308,
-                    "y": 0.4559386973180076,
+                    "x": 0.40336749633967794,
+                    "y": 0.43295019157088127,
                     "uniqueID": 236398,
                     "ioValues": [
                         {
@@ -1662,8 +1662,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Keepout",
-                    "x": 0.3557833089311859,
-                    "y": 0.8620689655172414,
+                    "x": 0.35651537335285505,
+                    "y": 0.842911877394636,
                     "uniqueID": 109371,
                     "ioValues": [],
                     "topLevel": false,
@@ -1702,7 +1702,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 24
                                 }
                             ]
                         },
@@ -1714,7 +1714,7 @@
                             "uniqueID": 251009,
                             "ioValues": [
                                 {
-                                    "name": "yDist",
+                                    "name": "xDist",
                                     "ioValue": 0
                                 },
                                 {
@@ -1756,7 +1756,7 @@
                     "allConnectors": [
                         {
                             "ap1Name": "result",
-                            "ap2Name": "xDist",
+                            "ap2Name": "yDist",
                             "ap2Primary": false,
                             "ap1ID": 587055,
                             "ap2ID": 251009
