@@ -956,7 +956,7 @@
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.5021961932650073,
-                    "y": 0.4367816091954023,
+                    "y": 0.42911877394636017,
                     "uniqueID": 292128,
                     "ioValues": [
                         {
@@ -1430,10 +1430,6 @@
                     "uniqueID": 298555,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 100
                         },
@@ -1454,10 +1450,6 @@
                     "y": 0.5478927203065134,
                     "uniqueID": 332656,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": -100
@@ -1877,6 +1869,20 @@
                     "ap2Primary": false,
                     "ap1ID": 983960,
                     "ap2ID": 292128
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 292128,
+                    "ap2ID": 298555
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 292128,
+                    "ap2ID": 332656
                 },
                 {
                     "ap1Name": "Geometry",
