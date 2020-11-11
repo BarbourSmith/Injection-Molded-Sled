@@ -1673,6 +1673,22 @@
                     "topLevel": false,
                     "allAtoms": [
                         {
+                            "atomType": "Constant",
+                            "name": "Length",
+                            "x": 0.04172767203513909,
+                            "y": 0.37164750957854403,
+                            "uniqueID": 769403,
+                            "ioValues": [
+                                {
+                                    "name": "number",
+                                    "ioValue": 25
+                                }
+                            ],
+                            "evolve": false,
+                            "min": 0,
+                            "max": 20
+                        },
+                        {
                             "atomType": "Equation",
                             "name": "Equation",
                             "x": 0.2518301610541728,
@@ -1680,22 +1696,6 @@
                             "uniqueID": 587055,
                             "ioValues": [],
                             "currentEquation": "L/2"
-                        },
-                        {
-                            "atomType": "Constant",
-                            "name": "Length",
-                            "x": 0.04538799414348463,
-                            "y": 0.39463601532567044,
-                            "uniqueID": 769403,
-                            "ioValues": [
-                                {
-                                    "name": "number",
-                                    "ioValue": 35
-                                }
-                            ],
-                            "evolve": false,
-                            "min": 0,
-                            "max": 20
                         },
                         {
                             "atomType": "Rectangle",
@@ -1759,13 +1759,6 @@
                     ],
                     "allConnectors": [
                         {
-                            "ap1Name": "result",
-                            "ap2Name": "yDist",
-                            "ap2Primary": false,
-                            "ap1ID": 587055,
-                            "ap2ID": 251009
-                        },
-                        {
                             "ap1Name": "number",
                             "ap2Name": "L",
                             "ap2Primary": false,
@@ -1778,6 +1771,13 @@
                             "ap2Primary": false,
                             "ap1ID": 769403,
                             "ap2ID": 180432
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "yDist",
+                            "ap2Primary": false,
+                            "ap1ID": 587055,
+                            "ap2ID": 251009
                         },
                         {
                             "ap1Name": "geometry",
@@ -2366,8 +2366,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.4970717423133236,
-            "y": 0.6475095785440613,
+            "x": 0.49267935578330896,
+            "y": 0.6436781609195402,
             "uniqueID": 250834,
             "ioValues": [
                 {
