@@ -2707,8 +2707,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Thin NEMA 14 Stepper Motor",
-                            "x": 0.10028929604628736,
-                            "y": 0.27099236641221375,
+                            "x": 0.10607521697203472,
+                            "y": 0.3549618320610687,
                             "uniqueID": 889211,
                             "projectID": "282487784",
                             "ioValues": []
