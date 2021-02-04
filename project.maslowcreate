@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.06943105110896818,
-            "y": 0.1984732824427481,
+            "x": 0.056368960468521224,
+            "y": 0.27862595419847325,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -277,8 +277,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Strength Grid",
-                    "x": 0.3770131771595901,
-                    "y": 0.7432950191570881,
+                    "x": 0.3792093704245974,
+                    "y": 0.7442748091603054,
                     "uniqueID": 214312,
                     "ioValues": [],
                     "topLevel": false,
@@ -387,6 +387,10 @@
                                 {
                                     "name": "3D shape 2",
                                     "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -423,8 +427,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Cross Hatch",
-                            "x": 0.4069431051108968,
-                            "y": 0.8206106870229009,
+                            "x": 0.41288433382137624,
+                            "y": 0.8244274809160305,
                             "uniqueID": 885531,
                             "ioValues": [],
                             "topLevel": false,
@@ -904,6 +908,13 @@
                             "ap2Primary": false,
                             "ap1ID": 326936,
                             "ap2ID": 277103
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 885531,
+                            "ap2ID": 380604
                         }
                     ],
                     "fileTypeVersion": 1
@@ -1008,7 +1019,7 @@
                     "ioValue": 10
                 },
                 {
-                    "name": "3D shape 3",
+                    "name": "3D shape 4",
                     "ioValue": 10
                 }
             ]
@@ -2707,10 +2718,6 @@
                     "uniqueID": 277467,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": "atoms/798665/376066/990706/695319Union"
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3043,10 +3050,6 @@
                     "y": 0.7061068702290076,
                     "uniqueID": 913364,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/798665/376066/990706/695319Union"
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -3551,10 +3554,6 @@
                             "uniqueID": 711954,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": "atoms/798665/376066/248634/940665/433691Union"
-                                },
-                                {
                                     "name": "geometry1",
                                     "ioValue": "atoms/798665/376066/248634/535081Difference"
                                 }
@@ -3709,10 +3708,6 @@
                     "uniqueID": 388328,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": "atoms/798665/376066/248634/326140Color"
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3837,7 +3832,7 @@
     "allConnectors": [
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 3",
+            "ap2Name": "3D shape 4",
             "ap2Primary": false,
             "ap1ID": 388087,
             "ap2ID": 180825
