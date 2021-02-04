@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.056368960468521224,
-            "y": 0.27862595419847325,
+            "x": 0.05856515373352855,
+            "y": 0.29389312977099236,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -2653,7 +2653,7 @@
         {
             "atomType": "Molecule",
             "name": "Hardware",
-            "x": 0.17743490838958534,
+            "x": 0.1815519765739385,
             "y": 0.8206106870229009,
             "uniqueID": 376066,
             "ioValues": [],
@@ -3067,8 +3067,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Controller Board",
-                    "x": 0.22854387656702027,
-                    "y": 0.8702290076335878,
+                    "x": 0.22913616398243045,
+                    "y": 0.8587786259541985,
                     "uniqueID": 248634,
                     "ioValues": [],
                     "topLevel": false,
@@ -3707,6 +3707,10 @@
                     "y": 0.8625954198473282,
                     "uniqueID": 388328,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/798665/376066/248634/326140Color"
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
