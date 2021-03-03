@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.06588579795021962,
-            "y": 0.28625954198473286,
+            "x": 0.06808199121522694,
+            "y": 0.32061068702290074,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -278,7 +278,7 @@
                     "atomType": "Molecule",
                     "name": "Strength Grid",
                     "x": 0.3718887262079063,
-                    "y": 0.7213740458015268,
+                    "y": 0.732824427480916,
                     "uniqueID": 214312,
                     "ioValues": [],
                     "topLevel": false,
@@ -427,8 +427,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Cross Hatch",
-                            "x": 0.41288433382137624,
-                            "y": 0.7862595419847328,
+                            "x": 0.41215226939970717,
+                            "y": 0.816793893129771,
                             "uniqueID": 885531,
                             "ioValues": [],
                             "topLevel": false,
@@ -532,6 +532,24 @@
                                     ]
                                 },
                                 {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "jscad linear pattern",
+                                    "x": 0.2840409956076135,
+                                    "y": 0.5,
+                                    "uniqueID": 773751,
+                                    "projectID": "343649009",
+                                    "ioValues": [
+                                        {
+                                            "name": "number",
+                                            "ioValue": 15
+                                        },
+                                        {
+                                            "name": "spacing",
+                                            "ioValue": 20
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Union",
                                     "name": "Union",
                                     "x": 0.564484126984127,
@@ -545,24 +563,6 @@
                                         {
                                             "name": "3D shape 2",
                                             "ioValue": 10
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "GitHubMolecule",
-                                    "name": "jscad linear pattern",
-                                    "x": 0.311,
-                                    "y": 0.5977011494252873,
-                                    "uniqueID": 773751,
-                                    "projectID": "343649009",
-                                    "ioValues": [
-                                        {
-                                            "name": "number",
-                                            "ioValue": 14
-                                        },
-                                        {
-                                            "name": "spacing",
-                                            "ioValue": 20
                                         }
                                     ]
                                 },
@@ -777,18 +777,18 @@
                                     "ap2ID": 627334
                                 },
                                 {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry1",
-                                    "ap2Primary": false,
-                                    "ap1ID": 748067,
-                                    "ap2ID": 923700
-                                },
-                                {
                                     "ap1Name": "Geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 773751,
                                     "ap2ID": 660367
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 748067,
+                                    "ap2ID": 923700
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -2766,10 +2766,6 @@
                     "uniqueID": 277467,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": "atoms/798665/376066/990706/405472Assembly"
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3191,10 +3187,6 @@
                     "y": 0.7061068702290076,
                     "uniqueID": 913364,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/798665/376066/990706/405472Assembly"
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -3852,10 +3844,6 @@
                     "y": 0.7977099236641221,
                     "uniqueID": 263662,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/798665/376066/248634/326140Color"
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
