@@ -2196,7 +2196,7 @@
                     "ioValue": 10
                 },
                 {
-                    "name": "3D shape 5",
+                    "name": "3D shape 6",
                     "ioValue": 10
                 }
             ]
@@ -2676,8 +2676,8 @@
         {
             "atomType": "Molecule",
             "name": "Hardware",
-            "x": 0.2013177159590044,
-            "y": 0.7748091603053435,
+            "x": 0.19472913616398244,
+            "y": 0.7595419847328244,
             "uniqueID": 376066,
             "ioValues": [],
             "topLevel": false,
@@ -3477,8 +3477,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Controller Board",
-                    "x": 0.2247437774524158,
-                    "y": 0.8587786259541985,
+                    "x": 0.22693997071742314,
+                    "y": 0.8893129770992366,
                     "uniqueID": 248634,
                     "ioValues": [],
                     "topLevel": false,
@@ -4075,10 +4075,15 @@
                         {
                             "atomType": "Molecule",
                             "name": "Keep Out Regions",
-                            "x": 0.4853587115666179,
-                            "y": 0.5725190839694657,
+                            "x": 0.4831625183016105,
+                            "y": 0.5572519083969465,
                             "uniqueID": 650319,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "Board Outline",
+                                    "ioValue": "atoms/798665/376066/248634/711954Difference"
+                                }
+                            ],
                             "topLevel": false,
                             "allAtoms": [
                                 {
@@ -4166,6 +4171,23 @@
                                     ]
                                 },
                                 {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.2335285505124451,
+                                    "y": 0.6183206106870228,
+                                    "uniqueID": 638938,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "atoms/798665/376066/248634/711954Difference"
+                                        },
+                                        {
+                                            "name": "height",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Color",
                                     "name": "Color",
                                     "x": 0.6200585651537335,
@@ -4174,10 +4196,60 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "atoms/798665/376066/248634/650319/210242Translate"
+                                            "ioValue": "atoms/798665/376066/248634/650319/292811Union"
                                         }
                                     ],
                                     "selectedColorIndex": "12"
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Board Outline",
+                                    "x": 0.013333333333333334,
+                                    "y": 0.7290076335877863,
+                                    "uniqueID": 208149,
+                                    "ioValues": []
+                                },
+                                {
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.41068814055636893,
+                                    "y": 0.7557251908396946,
+                                    "uniqueID": 782031,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "atoms/798665/376066/248634/650319/638938Extrude"
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": -10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Union",
+                                    "name": "Union",
+                                    "x": 0.5783308931185944,
+                                    "y": 0.6526717557251909,
+                                    "uniqueID": 292811,
+                                    "ioValues": [
+                                        {
+                                            "name": "3D shape 1",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "3D shape 2",
+                                            "ioValue": 10
+                                        }
+                                    ]
                                 },
                                 {
                                     "atomType": "Output",
@@ -4217,10 +4289,17 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 210242,
+                                    "ap2ID": 292811
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
-                                    "ap1ID": 210242,
-                                    "ap2ID": 462553
+                                    "ap1ID": 638938,
+                                    "ap2ID": 782031
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -4228,6 +4307,27 @@
                                     "ap2Primary": false,
                                     "ap1ID": 462553,
                                     "ap2ID": 352849
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 208149,
+                                    "ap2ID": 638938
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 782031,
+                                    "ap2ID": 292811
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 292811,
+                                    "ap2ID": 462553
                                 }
                             ],
                             "fileTypeVersion": 1
@@ -4246,11 +4346,11 @@
                             ]
                         },
                         {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.7591508052708639,
-                            "y": 0.5229007633587786,
-                            "uniqueID": 541859,
+                            "atomType": "Union",
+                            "name": "Union",
+                            "x": 0.788433382137628,
+                            "y": 0.4083969465648855,
+                            "uniqueID": 597889,
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
@@ -4740,7 +4840,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "atoms/798665/376066/248634/541859Assembly"
+                                    "ioValue": "atoms/798665/376066/248634/597889Union"
                                 }
                             ]
                         }
@@ -4759,6 +4859,13 @@
                             "ap2Primary": true,
                             "ap1ID": 711954,
                             "ap2ID": 243383
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Board Outline",
+                            "ap2Primary": false,
+                            "ap1ID": 711954,
+                            "ap2ID": 650319
                         },
                         {
                             "ap1Name": "geometry",
@@ -4786,7 +4893,7 @@
                             "ap2Name": "3D shape 2",
                             "ap2Primary": false,
                             "ap1ID": 135079,
-                            "ap2ID": 541859
+                            "ap2ID": 597889
                         },
                         {
                             "ap1Name": "geometry",
@@ -4820,7 +4927,7 @@
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": 541859,
+                            "ap1ID": 597889,
                             "ap2ID": 216547
                         },
                         {
@@ -4828,7 +4935,7 @@
                             "ap2Name": "3D shape 1",
                             "ap2Primary": false,
                             "ap1ID": 311278,
-                            "ap2ID": 541859
+                            "ap2ID": 597889
                         }
                     ],
                     "fileTypeVersion": 1
@@ -4958,7 +5065,7 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 5",
+            "ap2Name": "3D shape 6",
             "ap2Primary": false,
             "ap1ID": 376066,
             "ap2ID": 537383
