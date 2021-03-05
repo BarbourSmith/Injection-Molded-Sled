@@ -1006,8 +1006,8 @@
         {
             "atomType": "Molecule",
             "name": "Linear Shaft Mounts",
-            "x": 0.04465592972181552,
-            "y": 0.49236641221374045,
+            "x": 0.043923865300146414,
+            "y": 0.450381679389313,
             "uniqueID": 101505,
             "ioValues": [],
             "topLevel": false,
@@ -1895,8 +1895,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Keepout",
-                    "x": 0.38726207906295756,
-                    "y": 0.8511450381679388,
+                    "x": 0.38945827232796487,
+                    "y": 0.8702290076335878,
                     "uniqueID": 109371,
                     "ioValues": [],
                     "topLevel": false,
@@ -1999,10 +1999,57 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/798665/101505/109371/251009Translate"
+                                    "ioValue": "atoms/798665/101505/109371/148892Union"
                                 }
                             ],
                             "selectedColorIndex": "12"
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.22108345534407026,
+                            "y": 0.8702290076335878,
+                            "uniqueID": 553853,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 20
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Union",
+                            "name": "Union",
+                            "x": 0.5666178623718887,
+                            "y": 0.7175572519083969,
+                            "uniqueID": 148892,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.4531478770131771,
+                            "y": 0.7977099236641221,
+                            "uniqueID": 856434,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/798665/101505/109371/553853Circle"
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 30
+                                }
+                            ]
                         },
                         {
                             "atomType": "Output",
@@ -2049,10 +2096,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
                             "ap1ID": 251009,
-                            "ap2ID": 813257
+                            "ap2ID": 148892
                         },
                         {
                             "ap1Name": "geometry",
@@ -2067,6 +2114,27 @@
                             "ap2Primary": false,
                             "ap1ID": 813257,
                             "ap2ID": 494099
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 553853,
+                            "ap2ID": 856434
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 148892,
+                            "ap2ID": 813257
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 856434,
+                            "ap2ID": 148892
                         }
                     ],
                     "fileTypeVersion": 1
@@ -2183,7 +2251,7 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.3535871156661786,
+            "x": 0.35535976505139505,
             "y": 0.3511450381679389,
             "uniqueID": 537383,
             "ioValues": [
