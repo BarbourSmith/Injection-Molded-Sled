@@ -4913,7 +4913,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 102.5
+                                    "ioValue": 87.5
                                 },
                                 {
                                     "name": "zDist",
@@ -4973,7 +4973,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 95
+                                            "ioValue": 125
                                         }
                                     ]
                                 },
@@ -5011,11 +5011,11 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 47.5
+                                            "ioValue": 62.5
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 10
+                                            "ioValue": 20
                                         }
                                     ]
                                 },
@@ -5137,19 +5137,19 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 47.5
+                                            "ioValue": 62.5
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 10
+                                            "ioValue": 20
                                         }
                                     ]
                                 },
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.7371888726207907,
-                                    "y": 0.29007633587786263,
+                                    "x": 0.7364568081991216,
+                                    "y": 0.29770992366412213,
                                     "uniqueID": 641683,
                                     "ioValues": [
                                         {
@@ -5162,7 +5162,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 102.5
+                                            "ioValue": 87.5
                                         },
                                         {
                                             "name": "zDist",
@@ -5915,7 +5915,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 95
+                                    "ioValue": 125
                                 }
                             ]
                         },
