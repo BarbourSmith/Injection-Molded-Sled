@@ -4605,6 +4605,10 @@
                 {
                     "name": "3D shape 6",
                     "ioValue": 10
+                },
+                {
+                    "name": "3D shape 7",
+                    "ioValue": 10
                 }
             ]
         },
@@ -7192,8 +7196,8 @@
         {
             "atomType": "Group",
             "name": "Group",
-            "x": 0.33382137628111275,
-            "y": 0.7824427480916031,
+            "x": 0.3396778916544656,
+            "y": 0.7633587786259541,
             "uniqueID": 251975,
             "ioValues": [
                 {
@@ -7321,6 +7325,13 @@
             "ap2Primary": false,
             "ap1ID": 437533,
             "ap2ID": 251975
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 7",
+            "ap2Primary": false,
+            "ap1ID": 437533,
+            "ap2ID": 537383
         },
         {
             "ap1Name": "geometry",
