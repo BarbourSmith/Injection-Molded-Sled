@@ -7447,8 +7447,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 0.23792093704245976,
-                    "y": 0.8473282442748092,
+                    "x": 0.24011713030746704,
+                    "y": 0.8549618320610687,
                     "uniqueID": 250669,
                     "ioValues": [],
                     "topLevel": false,
@@ -7859,11 +7859,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -50
+                                    "ioValue": -52
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 45
+                                    "ioValue": 60
                                 },
                                 {
                                     "name": "zDist",
@@ -7884,7 +7884,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 50
+                                    "ioValue": 52
                                 },
                                 {
                                     "name": "yDist",
