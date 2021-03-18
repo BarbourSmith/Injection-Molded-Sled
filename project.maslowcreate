@@ -4641,7 +4641,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate",
-                    "x": 0.1383601756954612,
+                    "x": 0.13543191800878476,
                     "y": 0.2251908396946565,
                     "uniqueID": 506892,
                     "ioValues": [],
@@ -4656,7 +4656,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 85
+                                    "ioValue": 81
                                 }
                             ]
                         },
@@ -4814,7 +4814,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 8
+                                    "ioValue": 24
                                 }
                             ]
                         },
@@ -6466,8 +6466,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Mounting Bolts",
-                            "x": 0.5827232796486091,
-                            "y": 0.7862595419847328,
+                            "x": 0.5783308931185944,
+                            "y": 0.7900763358778625,
                             "uniqueID": 385240,
                             "ioValues": [],
                             "topLevel": false,
