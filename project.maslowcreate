@@ -7447,8 +7447,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 0.2335285505124451,
-                    "y": 0.8320610687022901,
+                    "x": 0.23792093704245976,
+                    "y": 0.8473282442748092,
                     "uniqueID": 250669,
                     "ioValues": [],
                     "topLevel": false,
@@ -7456,8 +7456,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Base Support",
-                            "x": 0.07686676427525622,
-                            "y": 0.1984732824427481,
+                            "x": 0.07833089311859444,
+                            "y": 0.18702290076335878,
                             "uniqueID": 556069,
                             "ioValues": [],
                             "topLevel": false,
@@ -7561,7 +7561,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 24.1
+                                            "ioValue": 28
                                         }
                                     ]
                                 },
@@ -7859,7 +7859,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -37.5
+                                    "ioValue": -50
                                 },
                                 {
                                     "name": "yDist",
@@ -7888,7 +7888,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": 60
                                 },
                                 {
                                     "name": "zDist",
