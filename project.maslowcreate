@@ -4967,8 +4967,8 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.03806734992679356,
-                                    "y": 0.4427480916030534,
+                                    "x": 0.0424597364568082,
+                                    "y": 0.4198473282442748,
                                     "uniqueID": 444566,
                                     "ioValues": [
                                         {
@@ -7423,8 +7423,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Dust Hose Port",
-                    "x": 0.3308931185944363,
-                    "y": 0.7786259541984732,
+                    "x": 0.3513909224011713,
+                    "y": 0.8549618320610687,
                     "uniqueID": 954211,
                     "ioValues": [],
                     "topLevel": false,
@@ -7447,7 +7447,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 113
+                                            "ioValue": 121
                                         }
                                     ]
                                 },
@@ -8919,13 +8919,13 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.06149341142020497,
-                                    "y": 0.29389312977099236,
+                                    "x": 0.0636896046852123,
+                                    "y": 0.3091603053435114,
                                     "uniqueID": 773252,
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 123
+                                            "ioValue": 125
                                         }
                                     ]
                                 },
@@ -8964,23 +8964,6 @@
                                     ]
                                 },
                                 {
-                                    "atomType": "Rectangle",
-                                    "name": "Rectangle",
-                                    "x": 0.07759882869692533,
-                                    "y": 0.5038167938931297,
-                                    "uniqueID": 873916,
-                                    "ioValues": [
-                                        {
-                                            "name": "x length",
-                                            "ioValue": 200
-                                        },
-                                        {
-                                            "name": "y length",
-                                            "ioValue": 200
-                                        }
-                                    ]
-                                },
-                                {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
                                     "x": 0.5146412884333822,
@@ -9014,7 +8997,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -106
+                                            "ioValue": -100
                                         },
                                         {
                                             "name": "zDist",
@@ -9139,6 +9122,23 @@
                                         {
                                             "name": "geometry1",
                                             "ioValue": "atoms/798665/437533/954211/714734/174795Extrude"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.0746705710102489,
+                                    "y": 0.7480916030534351,
+                                    "uniqueID": 873916,
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 200
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 200
                                         }
                                     ]
                                 },
@@ -9535,13 +9535,6 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
-                                    "ap1ID": 873916,
-                                    "ap2ID": 259627
-                                },
-                                {
-                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry1",
                                     "ap2Primary": false,
                                     "ap1ID": 174795,
@@ -9567,6 +9560,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 153800,
                                     "ap2ID": 906962
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 873916,
+                                    "ap2ID": 259627
                                 },
                                 {
                                     "ap1Name": "Geometry",
@@ -9595,8 +9595,8 @@
                         {
                             "atomType": "Group",
                             "name": "Group",
-                            "x": 0.6325036603221084,
-                            "y": 0.66793893129771,
+                            "x": 0.6251830161054173,
+                            "y": 0.6870229007633588,
                             "uniqueID": 690418,
                             "ioValues": [
                                 {
