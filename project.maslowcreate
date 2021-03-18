@@ -7428,8 +7428,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Outside",
-                            "x": 0.07686676427525622,
-                            "y": 0.4351145038167939,
+                            "x": 0.08052708638360176,
+                            "y": 0.4312977099236641,
                             "uniqueID": 842401,
                             "ioValues": [],
                             "topLevel": false,
@@ -7443,7 +7443,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 125
+                                            "ioValue": 113
                                         }
                                     ]
                                 },
@@ -7557,7 +7557,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -100
+                                            "ioValue": -97
                                         },
                                         {
                                             "name": "zDist",
@@ -7610,8 +7610,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Cut Aways",
-                                    "x": 0.37262079062957537,
-                                    "y": 0.6603053435114504,
+                                    "x": 0.37481698389458273,
+                                    "y": 0.6641221374045801,
                                     "uniqueID": 673183,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -7921,10 +7921,35 @@
                             ]
                         },
                         {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.6947291361639825,
+                            "y": 0.2633587786259542,
+                            "uniqueID": 641683,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/798665/437533/954211/476823Group"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 87.5
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 26
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Molecule",
                             "name": "Inside",
-                            "x": 0.059297218155197666,
-                            "y": 0.7213740458015268,
+                            "x": 0.06222547584187409,
+                            "y": 0.7404580152671755,
                             "uniqueID": 598374,
                             "ioValues": [],
                             "topLevel": false,
@@ -7938,7 +7963,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 121
+                                            "ioValue": 117
                                         }
                                     ]
                                 },
@@ -8035,7 +8060,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -98
+                                            "ioValue": -96
                                         },
                                         {
                                             "name": "zDist",
@@ -8305,31 +8330,6 @@
                                 }
                             ],
                             "fileTypeVersion": 1
-                        },
-                        {
-                            "atomType": "Translate",
-                            "name": "Translate",
-                            "x": 0.6947291361639825,
-                            "y": 0.2633587786259542,
-                            "uniqueID": 641683,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "atoms/798665/437533/954211/476823Group"
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 87.5
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 26
-                                }
-                            ]
                         },
                         {
                             "atomType": "Molecule",
@@ -9270,18 +9270,18 @@
                             "ap2ID": 385878
                         },
                         {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry2",
-                            "ap2Primary": false,
-                            "ap1ID": 598374,
-                            "ap2ID": 527874
-                        },
-                        {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 641683,
                             "ap2ID": 312775
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry2",
+                            "ap2Primary": false,
+                            "ap1ID": 598374,
+                            "ap2ID": 527874
                         },
                         {
                             "ap1Name": "Geometry",
