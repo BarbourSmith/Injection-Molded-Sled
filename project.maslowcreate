@@ -4590,8 +4590,8 @@
         {
             "atomType": "Molecule",
             "name": "Dust Collection",
-            "x": 0.04612005856515373,
-            "y": 0.6984732824427481,
+            "x": 0.04465592972181552,
+            "y": 0.7099236641221374,
             "uniqueID": 437533,
             "ioValues": [],
             "topLevel": false,
@@ -6222,8 +6222,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Dust Hose Port",
-                    "x": 0.34699853587115664,
-                    "y": 0.8511450381679388,
+                    "x": 0.3462664714494876,
+                    "y": 0.8740458015267175,
                     "uniqueID": 954211,
                     "ioValues": [],
                     "topLevel": false,
@@ -8469,8 +8469,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Mounting Bolts",
-                            "x": 0.5292825768667643,
-                            "y": 0.7977099236641221,
+                            "x": 0.5219619326500733,
+                            "y": 0.8320610687022901,
                             "uniqueID": 391538,
                             "ioValues": [],
                             "topLevel": false,
@@ -8492,7 +8492,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 1
+                                            "ioValue": 0
                                         },
                                         {
                                             "name": "zDist",
@@ -8861,7 +8861,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 2
+                                            "ioValue": 0
                                         },
                                         {
                                             "name": "zDist",
