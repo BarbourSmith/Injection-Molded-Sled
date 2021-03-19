@@ -6218,8 +6218,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Dust Hose Port",
-                    "x": 0.3462664714494876,
-                    "y": 0.8740458015267175,
+                    "x": 0.3184480234260615,
+                    "y": 0.8206106870229009,
                     "uniqueID": 954211,
                     "ioValues": [],
                     "topLevel": false,
@@ -9953,7 +9953,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 827017,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/798665/437533/493551Group"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -9970,6 +9975,13 @@
                     "ap2Primary": false,
                     "ap1ID": 817310,
                     "ap2ID": 493551
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 493551,
+                    "ap2ID": 827017
                 },
                 {
                     "ap1Name": "Geometry",
