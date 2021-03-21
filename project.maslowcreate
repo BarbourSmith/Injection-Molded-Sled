@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.0527086383601757,
-            "y": 0.20610687022900762,
+            "x": 0.05197657393850659,
+            "y": 0.20229007633587787,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -20,12 +20,12 @@
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.07101024890190337,
-                    "y": 0.2567049808429119,
+                    "y": 0.23282442748091603,
                     "uniqueID": 129080,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 294
+                            "ioValue": 300
                         }
                     ]
                 },
@@ -89,7 +89,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 75
+                            "ioValue": 63
                         }
                     ]
                 },
@@ -277,8 +277,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Strength Grid",
-                    "x": 0.3718887262079063,
-                    "y": 0.732824427480916,
+                    "x": 0.3740849194729136,
+                    "y": 0.7442748091603054,
                     "uniqueID": 214312,
                     "ioValues": [],
                     "topLevel": false,
@@ -352,7 +352,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 69
+                                    "ioValue": 63
                                 }
                             ]
                         },
@@ -420,15 +420,15 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 73
+                                    "ioValue": 67
                                 }
                             ]
                         },
                         {
                             "atomType": "Molecule",
                             "name": "Cross Hatch",
-                            "x": 0.41272902603664413,
-                            "y": 0.8053435114503817,
+                            "x": 0.4136163982430454,
+                            "y": 0.8129770992366412,
                             "uniqueID": 885531,
                             "ioValues": [],
                             "topLevel": false,
@@ -667,7 +667,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 73
+                                            "ioValue": 63
                                         }
                                     ]
                                 },
