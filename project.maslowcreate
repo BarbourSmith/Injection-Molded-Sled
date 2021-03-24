@@ -4864,10 +4864,35 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Group",
+            "name": "Group",
+            "x": 0.3660322108345534,
+            "y": 0.5954198473282443,
+            "uniqueID": 251975,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Dust Collection",
-            "x": 0.04026354319180088,
-            "y": 0.6908396946564885,
+            "x": 0.04172767203513909,
+            "y": 0.7022900763358778,
             "uniqueID": 437533,
             "ioValues": [],
             "topLevel": false,
@@ -10283,31 +10308,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Group",
-            "name": "Group",
-            "x": 0.3660322108345534,
-            "y": 0.5954198473282443,
-            "uniqueID": 251975,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
             "x": 0.660559305689489,
@@ -10391,18 +10391,18 @@
             "ap2ID": 251975
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 437533,
-            "ap2ID": 251975
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 251975,
             "ap2ID": 250834
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 437533,
+            "ap2ID": 251975
         },
         {
             "ap1Name": "geometry",
