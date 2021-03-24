@@ -25,7 +25,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 295
+                            "ioValue": 294
                         }
                     ]
                 },
@@ -85,23 +85,6 @@
                     ]
                 },
                 {
-                    "atomType": "Union",
-                    "name": "Union",
-                    "x": 0.4927675988428158,
-                    "y": 0.42748091603053434,
-                    "uniqueID": 755174,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.07135969141755062,
@@ -117,8 +100,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Fillets",
-                    "x": 0.21595900439238652,
-                    "y": 0.7061068702290076,
+                    "x": 0.21742313323572474,
+                    "y": 0.7137404580152672,
                     "uniqueID": 453187,
                     "ioValues": [],
                     "topLevel": false,
@@ -147,8 +130,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Outer",
-                            "x": 0.28550512445095166,
-                            "y": 0.732824427480916,
+                            "x": 0.2869692532942899,
+                            "y": 0.7366412213740459,
                             "uniqueID": 915459,
                             "ioValues": [],
                             "topLevel": false,
@@ -196,7 +179,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 295
+                                            "ioValue": 294
                                         }
                                     ]
                                 },
@@ -284,7 +267,7 @@
                                     "ioValues": [
                                         {
                                             "name": "majorDiameter",
-                                            "ioValue": 295
+                                            "ioValue": 294
                                         },
                                         {
                                             "name": "minorDiameter",
@@ -337,7 +320,7 @@
                                     "ioValues": [
                                         {
                                             "name": "number",
-                                            "ioValue": 295
+                                            "ioValue": 294
                                         }
                                     ],
                                     "evolve": false,
@@ -353,7 +336,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 295
+                                            "ioValue": 294
                                         }
                                     ]
                                 },
@@ -559,7 +542,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/798665/388087/755174Union"
+                            "ioValue": "atoms/798665/388087/356901Group"
                         },
                         {
                             "name": "tag",
@@ -1240,13 +1223,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 686314,
-                    "ap2ID": 755174
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 686314,
@@ -1263,7 +1239,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 755174,
+                    "ap1ID": 356901,
                     "ap2ID": 235543
                 },
                 {
@@ -1286,13 +1262,6 @@
                     "ap2Primary": false,
                     "ap1ID": 235543,
                     "ap2ID": 363300
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 214312,
-                    "ap2ID": 755174
                 },
                 {
                     "ap1Name": "Geometry",
