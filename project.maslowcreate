@@ -323,12 +323,34 @@
                                     "max": 20
                                 },
                                 {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.4516837481698389,
+                                    "y": 0.8435114503816794,
+                                    "uniqueID": 941604,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 296
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Code",
                                     "name": "Code",
                                     "x": 0.6903367496339677,
                                     "y": 0.8053435114503817,
                                     "uniqueID": 910207,
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "majorDiameter",
+                                            "ioValue": "atoms/798665/388087/453187/915459/941604Circle"
+                                        },
+                                        {
+                                            "name": "minorDiameter",
+                                            "ioValue": 6
+                                        }
+                                    ],
                                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return majorDiameter.sweep(Arc(minorDiameter));        //return must be geometry;\n}\n\nreturn main(majorDiameter, minorDiameter)"
                                 },
                                 {
@@ -382,6 +404,13 @@
                                     "ap2ID": 722389
                                 },
                                 {
+                                    "ap1Name": "number",
+                                    "ap2Name": "minorDiameter",
+                                    "ap2Primary": false,
+                                    "ap1ID": 385030,
+                                    "ap2ID": 910207
+                                },
+                                {
                                     "ap1Name": "geometry",
                                     "ap2Name": "3D shape 4",
                                     "ap2Primary": false,
@@ -422,6 +451,20 @@
                                     "ap2Primary": false,
                                     "ap1ID": 238324,
                                     "ap2ID": 369002
+                                },
+                                {
+                                    "ap1Name": "number",
+                                    "ap2Name": "diameter",
+                                    "ap2Primary": false,
+                                    "ap1ID": 238324,
+                                    "ap2ID": 941604
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "majorDiameter",
+                                    "ap2Primary": false,
+                                    "ap1ID": 941604,
+                                    "ap2ID": 910207
                                 }
                             ],
                             "fileTypeVersion": 1
