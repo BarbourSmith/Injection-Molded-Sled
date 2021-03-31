@@ -4530,8 +4530,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Braces",
-                    "x": 0.2781844802342606,
-                    "y": 0.8358778625954199,
+                    "x": 0.27964860907759886,
+                    "y": 0.8282442748091602,
                     "uniqueID": 285733,
                     "ioValues": [],
                     "topLevel": false,
@@ -4685,7 +4685,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 679274,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/101505/285733/597654Tag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -4778,7 +4783,7 @@
                             "atomType": "Constant",
                             "name": "Length",
                             "x": 0.04172767203513909,
-                            "y": 0.37164750957854403,
+                            "y": 0.35877862595419846,
                             "uniqueID": 769403,
                             "ioValues": [
                                 {
