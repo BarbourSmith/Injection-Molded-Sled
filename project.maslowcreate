@@ -290,12 +290,7 @@
                                     "x": 0.5219619326500733,
                                     "y": 0.648854961832061,
                                     "uniqueID": 910207,
-                                    "ioValues": [
-                                        {
-                                            "name": "majorDiameter",
-                                            "ioValue": "atoms/798665/388087/453187/915459/941604Circle"
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return majorDiameter.sweep(Arc(minorDiameter));        //return must be geometry;\n}\n\nreturn main(majorDiameter, minorDiameter)"
                                 },
                                 {
@@ -1176,12 +1171,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 363300,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/798665/388087/235543Tag"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2371,12 +2361,7 @@
                                     "x": 0.9807135969141755,
                                     "y": 0.5,
                                     "uniqueID": 319385,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "atoms/798665/376066/248634/940665/433691Union"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -5697,11 +5682,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": "atoms/798665/437533/954211/842401/334405Translate"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": "atoms/798665/437533/954211/842401/466623Difference"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
@@ -5901,12 +5886,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 330923,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "atoms/798665/437533/954211/842401/673183/187258Translate"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -6154,11 +6134,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": "atoms/798665/437533/954211/598374/977581Translate"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": "atoms/798665/437533/954211/598374/419652Difference"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
@@ -6371,12 +6351,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 330923,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "atoms/798665/437533/954211/598374/642275/187258Translate"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -7343,12 +7318,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 330923,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "atoms/798665/437533/954211/714734/653018/187258Translate"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -9385,11 +9355,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": "atoms/798665/437533/506892/835199Translate"
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": "atoms/798665/437533/506892/248414Circle"
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
@@ -9750,11 +9720,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": "atoms/798665/437533/817310/795099/916111Circle"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": "atoms/798665/437533/817310/795099/134039Translate"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
@@ -9856,11 +9826,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": "atoms/798665/437533/817310/795099/369541Translate"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": "atoms/798665/437533/817310/795099/299913Circle"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
@@ -10240,12 +10210,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 163075,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "atoms/798665/437533/817310/192872/138597Translate"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -10310,12 +10275,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 301731,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/437533/817310/105931Tag"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -10356,12 +10316,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 827017,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/798665/437533/145965Assembly"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -10524,5 +10479,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.351"
+    "circleSegmentSize": "0.051"
 }
