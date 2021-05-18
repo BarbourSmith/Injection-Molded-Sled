@@ -9322,6 +9322,10 @@
             "uniqueID": 250834,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/798665/136997Assembly"
+                },
+                {
                     "name": "tag",
                     "ioValue": "Plastic"
                 }
@@ -9336,6 +9340,10 @@
             "ioValues": [
                 {
                     "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
                     "ioValue": 10
                 }
             ]
@@ -10666,6 +10674,13 @@
             "ap2ID": 536104
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 536104,
+            "ap2ID": 136997
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 3",
             "ap2Primary": false,
@@ -10678,6 +10693,13 @@
             "ap2Primary": false,
             "ap1ID": 250834,
             "ap2ID": 190316
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 136997,
+            "ap2ID": 250834
         },
         {
             "ap1Name": "Geometry",
