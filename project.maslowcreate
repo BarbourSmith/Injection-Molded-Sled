@@ -1237,8 +1237,8 @@
         {
             "atomType": "Molecule",
             "name": "Hardware",
-            "x": 0.21939736346516006,
-            "y": 0.1984732824427481,
+            "x": 0.2231638418079096,
+            "y": 0.19083969465648853,
             "uniqueID": 376066,
             "ioValues": [],
             "topLevel": false,
@@ -2027,8 +2027,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Controller Board",
-                    "x": 0.22035139092240116,
-                    "y": 0.9198473282442748,
+                    "x": 0.21939736346516006,
+                    "y": 0.900763358778626,
                     "uniqueID": 248634,
                     "ioValues": [],
                     "topLevel": false,
@@ -2036,8 +2036,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Cut Aways",
-                            "x": 0.1903367496339678,
-                            "y": 0.3282442748091603,
+                            "x": 0.18926553672316385,
+                            "y": 0.33587786259541985,
                             "uniqueID": 940665,
                             "ioValues": [],
                             "topLevel": false,
@@ -2361,7 +2361,12 @@
                                     "x": 0.9807135969141755,
                                     "y": 0.5,
                                     "uniqueID": 319385,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/376066/248634/940665/433691Union"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
