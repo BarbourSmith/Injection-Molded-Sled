@@ -10,7 +10,7 @@
         {
             "atomType": "Molecule",
             "name": "Hardware",
-            "x": 0.2231638418079096,
+            "x": 0.21961932650073204,
             "y": 0.19083969465648853,
             "uniqueID": 376066,
             "ioValues": [],
@@ -19,8 +19,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Stepper Motor and Standoffs",
-                    "x": 0.11932650073206441,
-                    "y": 0.2748091603053435,
+                    "x": 0.12298682284040995,
+                    "y": 0.2633587786259542,
                     "uniqueID": 990706,
                     "ioValues": [],
                     "topLevel": false,
@@ -330,8 +330,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Stand",
-                            "x": 0.4180087847730601,
-                            "y": 0.7862595419847328,
+                            "x": 0.4260614934114202,
+                            "y": 0.7748091603053435,
                             "uniqueID": 101565,
                             "ioValues": [],
                             "topLevel": false,
