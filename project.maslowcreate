@@ -9380,8 +9380,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.05490483162518301,
-            "y": 0.8702290076335878,
+            "x": 0.057833089311859445,
+            "y": 0.8854961832061068,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -9470,8 +9470,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Fillets",
-                    "x": 0.22035139092240116,
-                    "y": 0.7862595419847328,
+                    "x": 0.21669106881405564,
+                    "y": 0.7709923664122137,
                     "uniqueID": 453187,
                     "ioValues": [],
                     "topLevel": false,
@@ -9501,8 +9501,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Outer",
-                            "x": 0.2862371888726208,
-                            "y": 0.6984732824427481,
+                            "x": 0.28257686676427524,
+                            "y": 0.6755725190839695,
                             "uniqueID": 915459,
                             "ioValues": [],
                             "topLevel": false,
@@ -9645,7 +9645,7 @@
                                     "y": 0.6183206106870228,
                                     "uniqueID": 910207,
                                     "ioValues": [],
-                                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return Arc(minorDiameter)\n    .rx(0.25)\n    .x(majorDiameter/2)\n    .loft(...seq((a) => rz(a), { by: 1 / 50 }));\n}\n\nreturn main(majorDiameter, minorDiameter)"
+                                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return Arc(6)\n  .rx(0.25)\n  .x(10)\n  .loop(...seq((a) => rz(a), { by: 1 / 16, upto: 1 }))\n  .view();\n}\n\nreturn main(majorDiameter, minorDiameter)"
                                 },
                                 {
                                     "atomType": "Difference",
