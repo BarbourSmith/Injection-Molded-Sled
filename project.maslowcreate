@@ -2578,7 +2578,7 @@
         {
             "atomType": "Molecule",
             "name": "Linear Shaft Mounts",
-            "x": 0.04612005856515373,
+            "x": 0.04465592972181552,
             "y": 0.3931297709923664,
             "uniqueID": 101505,
             "ioValues": [],
@@ -2662,35 +2662,10 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.5109809663250365,
-                    "y": 0.4198473282442748,
-                    "uniqueID": 415241,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 6",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Clamp",
-                    "x": 0.2547584187408492,
-                    "y": 0.648854961832061,
+                    "x": 0.25329428989751096,
+                    "y": 0.6106870229007634,
                     "uniqueID": 751113,
                     "ioValues": [],
                     "topLevel": false,
@@ -3180,6 +3155,31 @@
                     "simplify": false
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.5109809663250365,
+                    "y": 0.4198473282442748,
+                    "uniqueID": 415241,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 6",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.6669106881405564,
@@ -3232,8 +3232,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Braces",
-                    "x": 0.27964860907759886,
-                    "y": 0.8282442748091602,
+                    "x": 0.2840409956076135,
+                    "y": 0.8320610687022901,
                     "uniqueID": 285733,
                     "ioValues": [],
                     "topLevel": false,
@@ -3471,8 +3471,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Keepout",
-                    "x": 0.38945827232796487,
-                    "y": 0.8702290076335878,
+                    "x": 0.3857979502196194,
+                    "y": 0.8854961832061068,
                     "uniqueID": 109371,
                     "ioValues": [],
                     "topLevel": false,
@@ -3495,7 +3495,7 @@
                         },
                         {
                             "atomType": "Equation",
-                            "name": "Equation",
+                            "name": "L/2",
                             "x": 0.2518301610541728,
                             "y": 0.2950191570881226,
                             "uniqueID": 587055,
@@ -3578,7 +3578,7 @@
                                     "ioValue": "atoms/798665/101505/109371/148892Union"
                                 }
                             ],
-                            "selectedColorIndex": "12"
+                            "selectedColorIndex": "21"
                         },
                         {
                             "atomType": "Circle",
@@ -3757,6 +3757,13 @@
                     "ap2ID": 415241
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 751113,
+                    "ap2ID": 415241
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -3769,13 +3776,6 @@
                     "ap2Primary": true,
                     "ap1ID": 415241,
                     "ap2ID": 332656
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 751113,
-                    "ap2ID": 415241
                 },
                 {
                     "ap1Name": "geometry",
@@ -3840,8 +3840,8 @@
         {
             "atomType": "Molecule",
             "name": "Dust Collection",
-            "x": 0.04610951008645533,
-            "y": 0.6908396946564885,
+            "x": 0.04612005856515373,
+            "y": 0.6755725190839695,
             "uniqueID": 437533,
             "ioValues": [],
             "topLevel": false,
@@ -3849,8 +3849,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 0.10175695461200586,
-                    "y": 0.2213740458015267,
+                    "x": 0.10102489019033674,
+                    "y": 0.21755725190839695,
                     "uniqueID": 250669,
                     "ioValues": [],
                     "topLevel": false,
@@ -3883,8 +3883,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Base Support",
-                            "x": 0.06954612005856516,
-                            "y": 0.33969465648854963,
+                            "x": 0.06661786237188873,
+                            "y": 0.3435114503816794,
                             "uniqueID": 556069,
                             "ioValues": [],
                             "topLevel": false,
@@ -4079,7 +4079,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 489763,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/437533/250669/556069/254669Assembly"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -4321,7 +4326,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 969012,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/250669/847798Group"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -4417,7 +4427,7 @@
                     "atomType": "Molecule",
                     "name": "Dust Hose Port",
                     "x": 0.1281112737920937,
-                    "y": 0.4541984732824427,
+                    "y": 0.4427480916030534,
                     "uniqueID": 954211,
                     "ioValues": [],
                     "topLevel": false,
@@ -4425,8 +4435,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Outside",
-                            "x": 0.09882869692532943,
-                            "y": 0.24427480916030533,
+                            "x": 0.095900439238653,
+                            "y": 0.27862595419847325,
                             "uniqueID": 842401,
                             "ioValues": [],
                             "topLevel": false,
@@ -4470,11 +4480,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": ""
+                                            "ioValue": "atoms/798665/437533/954211/842401/334405Translate"
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": ""
+                                            "ioValue": "atoms/798665/437533/954211/842401/466623Difference"
                                         },
                                         {
                                             "name": "3D shape 5",
@@ -4529,7 +4539,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry2",
-                                            "ioValue": "atoms/798665/437533/954211/842401/673183/187258Translate"
+                                            "ioValue": "atoms/798665/437533/954211/842401/673183Molecule"
                                         },
                                         {
                                             "name": "geometry1",
@@ -4607,8 +4617,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Cut Aways",
-                                    "x": 0.37042459736456806,
-                                    "y": 0.6717557251908397,
+                                    "x": 0.37481698389458273,
+                                    "y": 0.6450381679389313,
                                     "uniqueID": 673183,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -4674,7 +4684,12 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 330923,
-                                            "ioValues": []
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "atoms/798665/437533/954211/842401/673183/187258Translate"
+                                                }
+                                            ]
                                         }
                                     ],
                                     "allConnectors": [
@@ -4722,7 +4737,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 337106,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/437533/954211/842401/811798Difference"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -4809,11 +4829,11 @@
                             "ioValues": [
                                 {
                                     "name": "geometry2",
-                                    "ioValue": "atoms/798665/437533/954211/598374/801944Difference"
+                                    "ioValue": "atoms/798665/437533/954211/598374Molecule"
                                 },
                                 {
                                     "name": "geometry1",
-                                    "ioValue": "atoms/798665/437533/954211/842401/811798Difference"
+                                    "ioValue": "atoms/798665/437533/954211/842401Molecule"
                                 }
                             ]
                         },
@@ -4879,8 +4899,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Inside",
-                            "x": 0.12664714494875548,
-                            "y": 0.5152671755725191,
+                            "x": 0.1273792093704246,
+                            "y": 0.5534351145038168,
                             "uniqueID": 598374,
                             "ioValues": [],
                             "topLevel": false,
@@ -4924,11 +4944,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": ""
+                                            "ioValue": "atoms/798665/437533/954211/598374/977581Translate"
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": ""
+                                            "ioValue": "atoms/798665/437533/954211/598374/419652Difference"
                                         },
                                         {
                                             "name": "3D shape 5",
@@ -5008,7 +5028,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry2",
-                                            "ioValue": "atoms/798665/437533/954211/598374/642275/187258Translate"
+                                            "ioValue": "atoms/798665/437533/954211/598374/642275Molecule"
                                         },
                                         {
                                             "name": "geometry1",
@@ -5074,8 +5094,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Cut Aways",
-                                    "x": 0.46998535871156666,
-                                    "y": 0.7480916030534351,
+                                    "x": 0.4685212298682284,
+                                    "y": 0.7709923664122137,
                                     "uniqueID": 642275,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -5141,7 +5161,12 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 330923,
-                                            "ioValues": []
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "atoms/798665/437533/954211/598374/642275/187258Translate"
+                                                }
+                                            ]
                                         }
                                     ],
                                     "allConnectors": [
@@ -5176,7 +5201,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 973897,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/437533/954211/598374/801944Difference"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -5288,7 +5318,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/798665/437533/954211/665848/570338Group"
+                                    "ioValue": "atoms/798665/437533/954211/665848Molecule"
                                 },
                                 {
                                     "name": "x-axis degrees",
@@ -5341,8 +5371,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Festool Attachment Port",
-                            "x": 0.19106881405563692,
-                            "y": 0.8206106870229009,
+                            "x": 0.18740849194729137,
+                            "y": 0.8435114503816794,
                             "uniqueID": 665848,
                             "ioValues": [],
                             "topLevel": false,
@@ -5775,7 +5805,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 261743,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/437533/954211/665848/570338Group"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -5930,8 +5965,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Flange",
-                            "x": 0.42679355783308925,
-                            "y": 0.816793893129771,
+                            "x": 0.43191800878477304,
+                            "y": 0.8473282442748092,
                             "uniqueID": 714734,
                             "ioValues": [],
                             "topLevel": false,
@@ -5975,7 +6010,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry2",
-                                            "ioValue": "atoms/798665/437533/954211/714734/653018/187258Translate"
+                                            "ioValue": "atoms/798665/437533/954211/714734/653018Molecule"
                                         },
                                         {
                                             "name": "geometry1",
@@ -6043,10 +6078,27 @@
                                     ]
                                 },
                                 {
+                                    "atomType": "Difference",
+                                    "name": "Difference",
+                                    "x": 0.5797950219619327,
+                                    "y": 0.41221374045801523,
+                                    "uniqueID": 153800,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": "atoms/798665/437533/954211/714734/239615Molecule"
+                                        },
+                                        {
+                                            "name": "geometry1",
+                                            "ioValue": "atoms/798665/437533/954211/714734/663409Tag"
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Molecule",
                                     "name": "Cut Aways",
-                                    "x": 0.2708638360175695,
-                                    "y": 0.6297709923664122,
+                                    "x": 0.2767203513909224,
+                                    "y": 0.6603053435114504,
                                     "uniqueID": 653018,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -6112,7 +6164,12 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 330923,
-                                            "ioValues": []
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "atoms/798665/437533/954211/714734/653018/187258Translate"
+                                                }
+                                            ]
                                         }
                                     ],
                                     "allConnectors": [
@@ -6142,23 +6199,6 @@
                                     "simplify": false
                                 },
                                 {
-                                    "atomType": "Difference",
-                                    "name": "Difference",
-                                    "x": 0.5797950219619327,
-                                    "y": 0.41221374045801523,
-                                    "uniqueID": 153800,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry2",
-                                            "ioValue": "atoms/798665/437533/954211/714734/239615/924530Color"
-                                        },
-                                        {
-                                            "name": "geometry1",
-                                            "ioValue": "atoms/798665/437533/954211/714734/663409Tag"
-                                        }
-                                    ]
-                                },
-                                {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
                                     "x": 0.0746705710102489,
@@ -6178,8 +6218,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Keepout",
-                                    "x": 0.41947291361639827,
-                                    "y": 0.6946564885496184,
+                                    "x": 0.4224011713030747,
+                                    "y": 0.6755725190839695,
                                     "uniqueID": 239615,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -6223,7 +6263,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "geometry2",
-                                                    "ioValue": "atoms/798665/437533/954211/714734/239615/642275/187258Translate"
+                                                    "ioValue": "atoms/798665/437533/954211/714734/239615/642275Molecule"
                                                 },
                                                 {
                                                     "name": "geometry1",
@@ -6293,8 +6333,8 @@
                                         {
                                             "atomType": "Molecule",
                                             "name": "Cut Aways",
-                                            "x": 0.2518301610541728,
-                                            "y": 0.7900763358778625,
+                                            "x": 0.2525622254758419,
+                                            "y": 0.8053435114503817,
                                             "uniqueID": 642275,
                                             "ioValues": [],
                                             "topLevel": false,
@@ -6360,7 +6400,12 @@
                                                     "x": 0.9853587115666179,
                                                     "y": 0.5,
                                                     "uniqueID": 330923,
-                                                    "ioValues": []
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "number or geometry",
+                                                            "ioValue": "atoms/798665/437533/954211/714734/239615/642275/187258Translate"
+                                                        }
+                                                    ]
                                                 }
                                             ],
                                             "allConnectors": [
@@ -6401,7 +6446,7 @@
                                                     "ioValue": "atoms/798665/437533/954211/714734/239615/589929Translate"
                                                 }
                                             ],
-                                            "selectedColorIndex": "12"
+                                            "selectedColorIndex": "21"
                                         },
                                         {
                                             "atomType": "Translate",
@@ -6434,7 +6479,12 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 973897,
-                                            "ioValues": []
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "atoms/798665/437533/954211/714734/239615/924530Color"
+                                                }
+                                            ]
                                         }
                                     ],
                                     "allConnectors": [
@@ -6528,7 +6578,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 123811,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/437533/954211/714734/906962Group"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -6575,18 +6630,18 @@
                                     "ap2ID": 856022
                                 },
                                 {
-                                    "ap1Name": "Geometry",
-                                    "ap2Name": "geometry2",
-                                    "ap2Primary": false,
-                                    "ap1ID": 653018,
-                                    "ap2ID": 189735
-                                },
-                                {
                                     "ap1Name": "geometry",
                                     "ap2Name": "3D shape 4",
                                     "ap2Primary": false,
                                     "ap1ID": 153800,
                                     "ap2ID": 906962
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 653018,
+                                    "ap2ID": 189735
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -6623,8 +6678,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Mounting Bolts",
-                            "x": 0.5234260614934114,
-                            "y": 0.8435114503816794,
+                            "x": 0.5219619326500733,
+                            "y": 0.8625954198473282,
                             "uniqueID": 391538,
                             "ioValues": [],
                             "topLevel": false,
@@ -6657,8 +6712,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Base Support",
-                                    "x": 0.06222547584187409,
-                                    "y": 0.3473282442748092,
+                                    "x": 0.0534407027818448,
+                                    "y": 0.366412213740458,
                                     "uniqueID": 574006,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -6895,7 +6950,12 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 489763,
-                                            "ioValues": []
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "atoms/798665/437533/954211/391538/574006/671180Translate"
+                                                }
+                                            ]
                                         }
                                     ],
                                     "allConnectors": [
@@ -7197,8 +7257,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Vacuum Support",
-                                    "x": 0.10395314787701318,
-                                    "y": 0.7442748091603054,
+                                    "x": 0.1054172767203514,
+                                    "y": 0.7480916030534351,
                                     "uniqueID": 811659,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -7287,7 +7347,7 @@
                                                     "ioValue": "atoms/798665/437533/954211/391538/811659/211282Union"
                                                 }
                                             ],
-                                            "selectedColorIndex": "12"
+                                            "selectedColorIndex": "21"
                                         },
                                         {
                                             "atomType": "Extrude",
@@ -7393,7 +7453,12 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 489763,
-                                            "ioValues": []
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "atoms/798665/437533/954211/391538/811659/254669Assembly"
+                                                }
+                                            ]
                                         }
                                     ],
                                     "allConnectors": [
@@ -7736,7 +7801,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 554657,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/437533/954211/391538/536304Group"
+                                        }
+                                    ]
                                 },
                                 {
                                     "atomType": "Group",
@@ -7952,7 +8022,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 312775,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/954211/641683Translate"
+                                }
+                            ]
                         },
                         {
                             "atomType": "Stl",
@@ -8155,7 +8230,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate",
-                    "x": 0.1873198847262248,
+                    "x": 0.19399707174231332,
                     "y": 0.7404580152671755,
                     "uniqueID": 506892,
                     "ioValues": [],
@@ -8183,11 +8258,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": ""
+                                    "ioValue": "atoms/798665/437533/506892/835199Translate"
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": ""
+                                    "ioValue": "atoms/798665/437533/506892/248414Circle"
                                 },
                                 {
                                     "name": "3D shape 4",
@@ -8410,7 +8485,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 827057,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/506892/808170Tag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -8525,8 +8605,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Walls",
-                    "x": 0.2767203513909224,
-                    "y": 0.8625954198473282,
+                    "x": 0.2759882869692533,
+                    "y": 0.8473282442748092,
                     "uniqueID": 817310,
                     "ioValues": [],
                     "topLevel": false,
@@ -8534,8 +8614,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Outer Wall",
-                            "x": 0.2562225475841874,
-                            "y": 0.25572519083969464,
+                            "x": 0.2547584187408492,
+                            "y": 0.2824427480916031,
                             "uniqueID": 795099,
                             "ioValues": [],
                             "topLevel": false,
@@ -8562,11 +8642,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": ""
+                                            "ioValue": "atoms/798665/437533/817310/795099/916111Circle"
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": ""
+                                            "ioValue": "atoms/798665/437533/817310/795099/134039Translate"
                                         },
                                         {
                                             "name": "3D shape 4",
@@ -8668,11 +8748,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": ""
+                                            "ioValue": "atoms/798665/437533/817310/795099/369541Translate"
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": ""
+                                            "ioValue": "atoms/798665/437533/817310/795099/299913Circle"
                                         },
                                         {
                                             "name": "3D shape 5",
@@ -8815,7 +8895,7 @@
                                             "ioValue": "atoms/798665/437533/817310/795099/106177Translate"
                                         }
                                     ],
-                                    "selectedColorIndex": "12"
+                                    "selectedColorIndex": "21"
                                 },
                                 {
                                     "atomType": "Output",
@@ -8823,7 +8903,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 528974,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/437533/817310/795099/495271Group"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -8956,8 +9041,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Inner Wall",
-                            "x": 0.28550512445095166,
-                            "y": 0.66793893129771,
+                            "x": 0.28989751098096633,
+                            "y": 0.6450381679389313,
                             "uniqueID": 192872,
                             "ioValues": [],
                             "topLevel": false,
@@ -9053,7 +9138,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 163075,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/437533/817310/192872/138597Translate"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -9119,7 +9209,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 301731,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/817310/105931Tag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -9161,7 +9256,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 827017,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/798665/437533/145965Assembly"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -9517,16 +9617,7 @@
                                     "x": 0.24377745241581258,
                                     "y": 0.6755725190839695,
                                     "uniqueID": 722389,
-                                    "ioValues": [
-                                        {
-                                            "name": "majorDiameter",
-                                            "ioValue": 294
-                                        },
-                                        {
-                                            "name": "minorDiameter",
-                                            "ioValue": 6
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return Arc(majorDiameter).sweep(Arc(minorDiameter));        //return must be geometry;\n}\n\nreturn main(majorDiameter, minorDiameter)"
                                 },
                                 {
@@ -9535,16 +9626,7 @@
                                     "x": 0.5336749633967789,
                                     "y": 0.6183206106870228,
                                     "uniqueID": 910207,
-                                    "ioValues": [
-                                        {
-                                            "name": "majorDiameter",
-                                            "ioValue": 294
-                                        },
-                                        {
-                                            "name": "minorDiameter",
-                                            "ioValue": 6
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return Arc(minorDiameter)\n    .rx(0.25)\n    .x(majorDiameter/2)\n    .loft(...seq((a) => rz(a), { by: 1 / 50 }));\n}\n\nreturn main(majorDiameter, minorDiameter)"
                                 },
                                 {
@@ -9586,12 +9668,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 816242,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "atoms/798665/388087/453187/915459/804118Difference"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -9734,12 +9811,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 591526,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/388087/453187/561097Translate"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -9955,6 +10027,10 @@
                                         {
                                             "name": "Spacing",
                                             "ioValue": 20
+                                        },
+                                        {
+                                            "name": "Shape",
+                                            "ioValue": 10
                                         },
                                         {
                                             "name": "Number",
@@ -10223,12 +10299,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 242607,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "atoms/798665/388087/214312/885531/923700Difference"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -10354,12 +10425,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 145993,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/388087/214312/380604Union"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -10443,12 +10509,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 363300,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/798665/388087/235543Tag"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
