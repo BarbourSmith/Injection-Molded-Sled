@@ -9263,7 +9263,7 @@
             "atomType": "Molecule",
             "name": "Body",
             "x": 0.05417276720351391,
-            "y": 0.8511450381679388,
+            "y": 0.8549618320610687,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -9352,8 +9352,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Fillets",
-                    "x": 0.21449487554904834,
-                    "y": 0.7595419847328244,
+                    "x": 0.2130307467057101,
+                    "y": 0.7633587786259541,
                     "uniqueID": 453187,
                     "ioValues": [],
                     "topLevel": false,
@@ -9383,8 +9383,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Outer",
-                            "x": 0.2891654465592972,
-                            "y": 0.7213740458015268,
+                            "x": 0.29062957540263545,
+                            "y": 0.7061068702290076,
                             "uniqueID": 915459,
                             "ioValues": [],
                             "topLevel": false,
@@ -9545,7 +9545,7 @@
                                             "ioValue": 6
                                         }
                                     ],
-                                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return Arc(minorDiameter/2)\n    .rx(0.25)\n    .x(majorDiameter)\n    .loft(...seq((a) => rz(a), { by: 1 / 50 }));\n}\n\nreturn main(majorDiameter, minorDiameter)"
+                                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return Arc(minorDiameter)\n    .rx(0.25)\n    .x(majorDiameter/2)\n    .loft(...seq((a) => rz(a), { by: 1 / 50 }));\n}\n\nreturn main(majorDiameter, minorDiameter)"
                                 },
                                 {
                                     "atomType": "Difference",
