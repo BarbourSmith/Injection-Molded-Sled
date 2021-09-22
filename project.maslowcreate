@@ -2579,7 +2579,7 @@
             "atomType": "Molecule",
             "name": "Linear Shaft Mounts",
             "x": 0.04465592972181552,
-            "y": 0.3931297709923664,
+            "y": 0.3778625954198473,
             "uniqueID": 101505,
             "ioValues": [],
             "topLevel": false,
@@ -2662,10 +2662,35 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.5109809663250365,
+                    "y": 0.4198473282442748,
+                    "uniqueID": 415241,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 6",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Clamp",
-                    "x": 0.25329428989751096,
-                    "y": 0.6106870229007634,
+                    "x": 0.2540263543191801,
+                    "y": 0.6259541984732824,
                     "uniqueID": 751113,
                     "ioValues": [],
                     "topLevel": false,
@@ -2886,7 +2911,7 @@
                             "atomType": "Molecule",
                             "name": "Bolts",
                             "x": 0.513909224011713,
-                            "y": 0.8893129770992366,
+                            "y": 0.900763358778626,
                             "uniqueID": 563058,
                             "ioValues": [],
                             "topLevel": false,
@@ -2999,7 +3024,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 487445,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/101505/751113/563058/822832Group"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -3025,13 +3055,6 @@
                                     "ap2ID": 938819
                                 },
                                 {
-                                    "ap1Name": "Geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
-                                    "ap1ID": 138986,
-                                    "ap2ID": 295775
-                                },
-                                {
                                     "ap1Name": "geometry",
                                     "ap2Name": "number or geometry",
                                     "ap2Primary": false,
@@ -3055,7 +3078,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 601352,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/101505/751113/852571Assembly"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -3153,31 +3181,6 @@
                     ],
                     "fileTypeVersion": 1,
                     "simplify": false
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.5109809663250365,
-                    "y": 0.4198473282442748,
-                    "uniqueID": 415241,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 6",
-                            "ioValue": 10
-                        }
-                    ]
                 },
                 {
                     "atomType": "Translate",
@@ -3387,7 +3390,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 679274,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/101505/285733/597654Tag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -3633,7 +3641,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 494099,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/101505/109371/813257Color"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -3717,7 +3730,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 895045,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/798665/101505/873001Union"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -3757,13 +3775,6 @@
                     "ap2ID": 415241
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 751113,
-                    "ap2ID": 415241
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -3776,6 +3787,13 @@
                     "ap2Primary": true,
                     "ap1ID": 415241,
                     "ap2ID": 332656
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 751113,
+                    "ap2ID": 415241
                 },
                 {
                     "ap1Name": "geometry",
@@ -9362,8 +9380,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.05417276720351391,
-            "y": 0.8549618320610687,
+            "x": 0.05490483162518301,
+            "y": 0.8702290076335878,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -9452,8 +9470,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Fillets",
-                    "x": 0.2130307467057101,
-                    "y": 0.7633587786259541,
+                    "x": 0.22035139092240116,
+                    "y": 0.7862595419847328,
                     "uniqueID": 453187,
                     "ioValues": [],
                     "topLevel": false,
@@ -9483,8 +9501,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Outer",
-                            "x": 0.29062957540263545,
-                            "y": 0.7061068702290076,
+                            "x": 0.2862371888726208,
+                            "y": 0.6984732824427481,
                             "uniqueID": 915459,
                             "ioValues": [],
                             "topLevel": false,
