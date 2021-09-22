@@ -9686,7 +9686,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 816242,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/798665/388087/453187/915459/804118Difference"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -9829,7 +9834,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 591526,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/388087/453187/561097Translate"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -10527,7 +10537,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 363300,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/798665/388087/235543Tag"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
