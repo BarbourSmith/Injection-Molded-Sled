@@ -10462,202 +10462,20 @@
                 {
                     "atomType": "Molecule",
                     "name": "Solid Sled",
-                    "x": 0.5190336749633968,
-                    "y": 0.7938931297709924,
+                    "x": 0.4956076134699854,
+                    "y": 0.7748091603053435,
                     "uniqueID": 171460,
                     "ioValues": [],
                     "topLevel": false,
                     "allAtoms": [
                         {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.18374816983894585,
-                            "y": 0.18702290076335878,
-                            "uniqueID": 747953,
-                            "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 600
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 600
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.3718887262079063,
-                            "y": 0.2480916030534351,
-                            "uniqueID": 457146,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "atoms/798665/388087/171460/747953Rectangle"
-                                },
-                                {
-                                    "name": "height",
-                                    "ioValue": 5
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.20644216691068812,
-                            "y": 0.4198473282442748,
-                            "uniqueID": 369002,
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 294
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.2840409956076135,
-                            "y": 0.4351145038167939,
-                            "uniqueID": 636451,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "atoms/798665/388087/171460/369002Circle"
-                                },
-                                {
-                                    "name": "height",
-                                    "ioValue": 7
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Constant",
-                            "name": "Minor",
-                            "x": 0.10761346998535871,
-                            "y": 0.5610687022900763,
-                            "uniqueID": 385030,
-                            "ioValues": [
-                                {
-                                    "name": "number",
-                                    "ioValue": 6
-                                }
-                            ],
-                            "evolve": false,
-                            "min": 0,
-                            "max": 20
-                        },
-                        {
-                            "atomType": "Translate",
-                            "name": "Translate",
-                            "x": 0.41727672035139096,
-                            "y": 0.41603053435114506,
-                            "uniqueID": 332060,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "atoms/798665/388087/171460/636451Extrude"
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": -3.5
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Group",
-                            "name": "Group",
-                            "x": 0.5366032210834553,
-                            "y": 0.36259541984732824,
-                            "uniqueID": 101579,
-                            "ioValues": [
-                                {
-                                    "name": "3D shape 4",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 5",
-                                    "ioValue": 10
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Code",
                             "name": "Code",
-                            "x": 0.24377745241581258,
-                            "y": 0.6755725190839695,
-                            "uniqueID": 722389,
-                            "ioValues": [
-                                {
-                                    "name": "majorDiameter",
-                                    "ioValue": 294
-                                },
-                                {
-                                    "name": "minorDiameter",
-                                    "ioValue": 6
-                                }
-                            ],
-                            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return Arc(majorDiameter).sweep(Arc(minorDiameter));        //return must be geometry;\n}\n\nreturn main(majorDiameter, minorDiameter)"
-                        },
-                        {
-                            "atomType": "Code",
-                            "name": "Code",
-                            "x": 0.5336749633967789,
-                            "y": 0.6183206106870228,
+                            "x": 0.5087847730600293,
+                            "y": 0.6221374045801527,
                             "uniqueID": 910207,
-                            "ioValues": [
-                                {
-                                    "name": "majorDiameter",
-                                    "ioValue": 294
-                                },
-                                {
-                                    "name": "minorDiameter",
-                                    "ioValue": 6
-                                }
-                            ],
-                            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(majorDiameter, minorDiameter){\n  return Arc(minorDiameter)\n  .rx(0.25)\n  .x(majorDiameter/2)\n  .loop(...seq((a) => rz(a), { by: 1 / 50, upto: 1 }));\n}\n\nreturn main(majorDiameter, minorDiameter)"
-                        },
-                        {
-                            "atomType": "Difference",
-                            "name": "Difference",
-                            "x": 0.6551976573938506,
-                            "y": 0.48854961832061067,
-                            "uniqueID": 804118,
-                            "ioValues": [
-                                {
-                                    "name": "geometry2",
-                                    "ioValue": "atoms/798665/388087/171460/101579Group"
-                                },
-                                {
-                                    "name": "geometry1",
-                                    "ioValue": "atoms/798665/388087/171460/910207Code"
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Constant",
-                            "name": "Major",
-                            "x": 0.08784773060029283,
-                            "y": 0.8435114503816794,
-                            "uniqueID": 238324,
-                            "ioValues": [
-                                {
-                                    "name": "number",
-                                    "ioValue": 294
-                                }
-                            ],
-                            "evolve": false,
-                            "min": 0,
-                            "max": 20
+                            "ioValues": [],
+                            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(tokenInput){\n  const radius = 15;\n\nconst spunShape = Hull(\n  Box(237, 1)\n    .y(18)\n    .x(237 / 2 + 63),\n  Arc(radius)\n    .y(radius / 2)\n    .x(radius / 2 + 63),\n  Arc(radius)\n    .y(radius / 2)\n    .x(300 - radius / 2)\n);\n\nreturn spunShape\n  .rx(0.25)\n  .loop(...seq((a) => rz(a), { by: 1 / 50, upto: 1 }));\n\n}\n\nreturn main(tokenInput)"
                         },
                         {
                             "atomType": "Output",
@@ -10665,107 +10483,10 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 816242,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/388087/171460/804118Difference"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
-                    "allConnectors": [
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 747953,
-                            "ap2ID": 457146
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 5",
-                            "ap2Primary": false,
-                            "ap1ID": 457146,
-                            "ap2ID": 101579
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 369002,
-                            "ap2ID": 636451
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 636451,
-                            "ap2ID": 332060
-                        },
-                        {
-                            "ap1Name": "number",
-                            "ap2Name": "minorDiameter",
-                            "ap2Primary": false,
-                            "ap1ID": 385030,
-                            "ap2ID": 722389
-                        },
-                        {
-                            "ap1Name": "number",
-                            "ap2Name": "minorDiameter",
-                            "ap2Primary": false,
-                            "ap1ID": 385030,
-                            "ap2ID": 910207
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 4",
-                            "ap2Primary": false,
-                            "ap1ID": 332060,
-                            "ap2ID": 101579
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry2",
-                            "ap2Primary": false,
-                            "ap1ID": 101579,
-                            "ap2ID": 804118
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry1",
-                            "ap2Primary": false,
-                            "ap1ID": 910207,
-                            "ap2ID": 804118
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 804118,
-                            "ap2ID": 816242
-                        },
-                        {
-                            "ap1Name": "number",
-                            "ap2Name": "majorDiameter",
-                            "ap2Primary": false,
-                            "ap1ID": 238324,
-                            "ap2ID": 722389
-                        },
-                        {
-                            "ap1Name": "number",
-                            "ap2Name": "diameter",
-                            "ap2Primary": false,
-                            "ap1ID": 238324,
-                            "ap2ID": 369002
-                        },
-                        {
-                            "ap1Name": "number",
-                            "ap2Name": "majorDiameter",
-                            "ap2Primary": false,
-                            "ap1ID": 238324,
-                            "ap2ID": 910207
-                        }
-                    ],
+                    "allConnectors": [],
                     "fileTypeVersion": 1,
                     "simplify": false
                 },
