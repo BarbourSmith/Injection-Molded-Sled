@@ -9380,7 +9380,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/798665/388087/356901Group"
+                            "ioValue": "atoms/798665/388087/171460Molecule"
                         },
                         {
                             "name": "tag",
@@ -10475,7 +10475,7 @@
                             "y": 0.6221374045801527,
                             "uniqueID": 910207,
                             "ioValues": [],
-                            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(tokenInput){\n  const radius = 15;\n\nconst spunShape = Hull(\n  Box(237, 1)\n    .y(18)\n    .x(237 / 2 + 63),\n  Arc(radius)\n    .y(radius / 2)\n    .x(radius / 2 + 63),\n  Arc(radius)\n    .y(radius / 2)\n    .x(300 - radius / 2)\n);\n\nreturn spunShape\n  .rx(0.25)\n  .loop(...seq((a) => rz(a), { by: 1 / 50, upto: 1 }));\n\n}\n\nreturn main(tokenInput)"
+                            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(tokenInput){\n  const radius = 15;\n\nconst spunShape = Hull(\n  Box(237/2, 1)\n    .y(18)\n    .x(237 / 4 + 63/2),\n  Arc(radius)\n    .y(radius / 2)\n    .x(radius / 2 + 63/2),\n  Arc(radius)\n    .y(radius / 2)\n    .x(300/2 - radius / 2)\n);\n\nreturn spunShape\n  .rx(0.25)\n  .loop(...seq((a) => rz(a), { by: 1 / 50, upto: 1 }));\n\n}\n\nreturn main(tokenInput)"
                         },
                         {
                             "atomType": "Output",
@@ -10483,10 +10483,23 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 816242,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/388087/171460/910207Code"
+                                }
+                            ]
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 910207,
+                            "ap2ID": 816242
+                        }
+                    ],
                     "fileTypeVersion": 1,
                     "simplify": false
                 },
@@ -10528,13 +10541,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 356901,
-                    "ap2ID": 235543
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
                     "ap1ID": 618652,
@@ -10560,6 +10566,13 @@
                     "ap2Primary": false,
                     "ap1ID": 214312,
                     "ap2ID": 356901
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 171460,
+                    "ap2ID": 235543
                 }
             ],
             "fileTypeVersion": 1,
