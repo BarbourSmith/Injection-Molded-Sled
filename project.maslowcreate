@@ -8367,7 +8367,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 827057,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/506892/808170Tag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -9118,7 +9123,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 827017,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/798665/437533/145965Assembly"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
