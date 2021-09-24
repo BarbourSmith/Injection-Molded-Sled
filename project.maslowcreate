@@ -9202,8 +9202,8 @@
         {
             "atomType": "Molecule",
             "name": "Splitter",
-            "x": 0.6581259150805271,
-            "y": 0.3015267175572519,
+            "x": 0.6625183016105417,
+            "y": 0.32061068702290074,
             "uniqueID": 438344,
             "ioValues": [
                 {
@@ -9226,7 +9226,32 @@
                         },
                         {
                             "name": "geometry1",
+                            "ioValue": "atoms/798665/438344/269235Move"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.05856515373352855,
+                    "y": 0.24045801526717556,
+                    "uniqueID": 269235,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
                             "ioValue": "atoms/798665/924619Rotate"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -10355,6 +10380,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 269235,
+                    "ap2ID": 893834
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 467927,
@@ -10390,10 +10422,10 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 746583,
-                    "ap2ID": 893834
+                    "ap2ID": 269235
                 },
                 {
                     "ap1Name": "geometry",
@@ -10505,6 +10537,23 @@
             "simplify": false
         },
         {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.7598828696925329,
+            "y": 0.37022900763358774,
+            "uniqueID": 187124,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/798665/438344Molecule"
+                },
+                {
+                    "name": "tag",
+                    "ioValue": "Plastic"
+                }
+            ]
+        },
+        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.5644216691068814,
@@ -10532,8 +10581,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.06076134699853588,
-            "y": 0.8740458015267175,
+            "x": 0.0629575402635432,
+            "y": 0.866412213740458,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -11840,7 +11889,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "atoms/798665/438344Molecule"
+                    "ioValue": "atoms/798665/187124ExtractTag"
                 }
             ]
         },
@@ -11904,8 +11953,15 @@
         {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
+            "ap2Primary": true,
             "ap1ID": 438344,
+            "ap2ID": 187124
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 187124,
             "ap2ID": 190316
         },
         {
