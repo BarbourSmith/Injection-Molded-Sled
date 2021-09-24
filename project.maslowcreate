@@ -3797,8 +3797,8 @@
         {
             "atomType": "Molecule",
             "name": "Dust Collection",
-            "x": 0.040995607613469986,
-            "y": 0.648854961832061,
+            "x": 0.04172767203513909,
+            "y": 0.6297709923664122,
             "uniqueID": 437533,
             "ioValues": [],
             "topLevel": false,
@@ -3806,8 +3806,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 0.10102489019033674,
-                    "y": 0.21755725190839695,
+                    "x": 0.10029282576866763,
+                    "y": 0.1946564885496183,
                     "uniqueID": 250669,
                     "ioValues": [],
                     "topLevel": false,
@@ -4278,7 +4278,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 969012,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/250669/847798Group"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -4373,7 +4378,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Dust Hose Port",
-                    "x": 0.1281112737920937,
+                    "x": 0.12298682284040995,
                     "y": 0.4427480916030534,
                     "uniqueID": 954211,
                     "ioValues": [],
@@ -7909,7 +7914,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 312775,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/954211/641683Translate"
+                                }
+                            ]
                         },
                         {
                             "atomType": "Stl",
@@ -8487,8 +8497,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Walls",
-                    "x": 0.2759882869692533,
-                    "y": 0.8473282442748092,
+                    "x": 0.27232796486090777,
+                    "y": 0.8358778625954199,
                     "uniqueID": 817310,
                     "ioValues": [],
                     "topLevel": false,
@@ -9081,7 +9091,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 301731,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/817310/105931Tag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
