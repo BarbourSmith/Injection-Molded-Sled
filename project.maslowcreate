@@ -10543,7 +10543,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 505396,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/798665/438344/979874Assembly"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
