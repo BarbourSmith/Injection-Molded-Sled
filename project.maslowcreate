@@ -1487,8 +1487,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Braces",
-                    "x": 0.2840409956076135,
-                    "y": 0.8320610687022901,
+                    "x": 0.28184480234260617,
+                    "y": 0.8473282442748092,
                     "uniqueID": 285733,
                     "ioValues": [],
                     "topLevel": false,
@@ -1642,7 +1642,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 679274,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/101505/285733/597654Tag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -2122,8 +2127,8 @@
         {
             "atomType": "Molecule",
             "name": "Dust Collection",
-            "x": 0.03733528550512445,
-            "y": 0.6183206106870228,
+            "x": 0.03513909224011713,
+            "y": 0.6297709923664122,
             "uniqueID": 437533,
             "ioValues": [],
             "topLevel": false,
@@ -2739,8 +2744,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Dust Hose Port",
-                    "x": 0.16764275256222547,
-                    "y": 0.4083969465648855,
+                    "x": 0.16617862371888725,
+                    "y": 0.3969465648854962,
                     "uniqueID": 954211,
                     "ioValues": [],
                     "topLevel": false,
@@ -6316,7 +6321,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 312775,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/954211/641683Translate"
+                                }
+                            ]
                         },
                         {
                             "atomType": "Stl",
@@ -6547,8 +6557,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate",
-                    "x": 0.23133235724743778,
-                    "y": 0.732824427480916,
+                    "x": 0.2342606149341142,
+                    "y": 0.7404580152671755,
                     "uniqueID": 506892,
                     "ioValues": [],
                     "topLevel": false,
@@ -6802,7 +6812,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 827057,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/506892/808170Tag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -6917,7 +6932,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Walls",
-                    "x": 0.2935578330893119,
+                    "x": 0.2957540263543192,
                     "y": 0.866412213740458,
                     "uniqueID": 817310,
                     "ioValues": [],
@@ -7511,7 +7526,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 301731,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/798665/437533/817310/105931Tag"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -7556,7 +7576,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": ""
+                            "ioValue": "atoms/798665/437533/684257Assembly"
                         }
                     ]
                 }
