@@ -9010,8 +9010,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.753294289897511,
-            "y": 0.3778625954198473,
+            "x": 0.7474377745241582,
+            "y": 0.3549618320610687,
             "uniqueID": 187124,
             "ioValues": [
                 {
@@ -9045,7 +9045,7 @@
                 },
                 {
                     "name": "z-axis degrees",
-                    "ioValue": 180
+                    "ioValue": 300
                 }
             ]
         },
