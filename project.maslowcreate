@@ -8833,7 +8833,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 505396,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/798665/438344/979874Assembly"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -9047,8 +9052,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.0629575402635432,
-            "y": 0.866412213740458,
+            "x": 0.06588579795021962,
+            "y": 0.8702290076335878,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -10258,7 +10263,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 363300,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "atoms/798665/388087/601239Move"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
