@@ -7683,8 +7683,8 @@
         {
             "atomType": "Molecule",
             "name": "Splitter",
-            "x": 0.664714494875549,
-            "y": 0.33969465648854963,
+            "x": 0.6632503660322109,
+            "y": 0.3091603053435114,
             "uniqueID": 438344,
             "ioValues": [
                 {
@@ -7891,35 +7891,10 @@
                     ]
                 },
                 {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.27964860907759886,
-                    "y": 0.5114503816793893,
-                    "uniqueID": 895476,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/798665/438344/511056Rotate"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 40
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Joint",
-                    "x": 0.18081991215226942,
-                    "y": 0.5648854961832062,
+                    "x": 0.17789165446559296,
+                    "y": 0.549618320610687,
                     "uniqueID": 633750,
                     "ioValues": [],
                     "topLevel": false,
@@ -8411,6 +8386,31 @@
                     ],
                     "fileTypeVersion": 1,
                     "simplify": false
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.27964860907759886,
+                    "y": 0.5114503816793893,
+                    "uniqueID": 895476,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/798665/438344/511056Rotate"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 40
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "Group",
@@ -8920,20 +8920,6 @@
                     "ap2ID": 979874
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 895476,
-                    "ap2ID": 872400
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 895476,
-                    "ap2ID": 230112
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -8946,6 +8932,20 @@
                     "ap2Primary": true,
                     "ap1ID": 633750,
                     "ap2ID": 511056
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 895476,
+                    "ap2ID": 872400
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 895476,
+                    "ap2ID": 230112
                 },
                 {
                     "ap1Name": "geometry",
