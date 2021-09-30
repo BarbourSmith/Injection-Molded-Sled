@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Hardware",
-            "x": 0.212298682284041,
-            "y": 0.20229007633587787,
+            "x": 0.21010248901903367,
+            "y": 0.2366412213740458,
             "uniqueID": 376066,
             "ioValues": [],
             "topLevel": false,
@@ -19,8 +19,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Stepper Motor and Standoffs",
-                    "x": 0.11932650073206441,
-                    "y": 0.2633587786259542,
+                    "x": 0.07759882869692533,
+                    "y": 0.33587786259541985,
                     "uniqueID": 990706,
                     "ioValues": [],
                     "topLevel": false,
@@ -545,12 +545,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 797117,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "atoms/798665/376066/990706/972771/113721Color"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -630,12 +625,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 439664,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/376066/990706/605733Group"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -702,13 +692,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.3184480234260615,
-                    "y": 0.19083969465648853,
+                    "x": 0.2994143484626647,
+                    "y": 0.3244274809160305,
                     "uniqueID": 277467,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/798665/376066/990706Molecule"
+                            "ioValue": "atoms/798665/376066/326225Rotate"
                         },
                         {
                             "name": "xDist",
@@ -727,13 +717,13 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.36090775988286966,
-                    "y": 0.49236641221374045,
-                    "uniqueID": 732588,
+                    "x": 0.19253294289897513,
+                    "y": 0.5458015267175573,
+                    "uniqueID": 326225,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/798665/376066/277467Translate"
+                            "ioValue": "atoms/798665/376066/990706Molecule"
                         },
                         {
                             "name": "x-axis degrees",
@@ -745,7 +735,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 180
+                            "ioValue": 45
                         }
                     ]
                 },
@@ -763,6 +753,31 @@
                         {
                             "name": "3D shape 5",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.4831625183016105,
+                    "y": 0.7709923664122137,
+                    "uniqueID": 732588,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/798665/376066/277467Translate"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180
                         }
                     ]
                 },
@@ -786,7 +801,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 990706,
-                    "ap2ID": 277467
+                    "ap2ID": 326225
                 },
                 {
                     "ap1Name": "geometry",
@@ -804,10 +819,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 732588,
-                    "ap2ID": 950830
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 326225,
+                    "ap2ID": 277467
                 },
                 {
                     "ap1Name": "geometry",
@@ -815,6 +830,13 @@
                     "ap2Primary": false,
                     "ap1ID": 950830,
                     "ap2ID": 713151
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 732588,
+                    "ap2ID": 950830
                 }
             ],
             "fileTypeVersion": 1,
@@ -1269,12 +1291,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 487445,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "atoms/798665/101505/751113/563058/822832Group"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -1330,12 +1347,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 601352,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/101505/751113/852571Assembly"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -1642,12 +1654,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 679274,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/101505/285733/597654Tag"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -1893,12 +1900,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 494099,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/101505/109371/813257Color"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -1982,12 +1984,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 895045,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/798665/101505/873001Union"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -6321,12 +6318,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 312775,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/437533/954211/641683Translate"
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Stl",
@@ -6812,12 +6804,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 827057,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/437533/506892/808170Tag"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -7526,12 +7513,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 301731,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "atoms/798665/437533/817310/105931Tag"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -7573,12 +7555,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 827017,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/798665/437533/684257Assembly"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -8833,12 +8810,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 505396,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/798665/438344/979874Assembly"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -10263,12 +10235,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 363300,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "atoms/798665/388087/601239Move"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
