@@ -69,15 +69,15 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 6",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -158,11 +158,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -205,7 +205,7 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -249,11 +249,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -293,12 +293,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 127115,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/376066/990706/101565/622174Assembly"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -464,11 +459,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -551,12 +546,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 797117,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/376066/990706/972771/113721Color"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -623,11 +613,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -637,12 +627,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 439664,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/376066/990706/605733Group"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -766,11 +751,11 @@
                     "ioValues": [
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 5",
-                            "ioValue": 10
+                            "ioValue": ""
                         }
                     ]
                 },
@@ -805,12 +790,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 713151,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "source/798665/376066/950830Union"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -956,19 +936,19 @@
                     "ioValues": [
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 4",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 5",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 6",
-                            "ioValue": 10
+                            "ioValue": ""
                         }
                     ]
                 },
@@ -1032,11 +1012,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -1108,15 +1088,15 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -1271,11 +1251,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -1310,12 +1290,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 487445,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/101505/751113/563058/822832Group"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -1372,12 +1347,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 601352,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/101505/751113/852571Assembly"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -1536,11 +1506,11 @@
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 2",
-                            "ioValue": 10
+                            "ioValue": ""
                         }
                     ]
                 },
@@ -1646,11 +1616,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -1702,12 +1672,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 679274,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/101505/285733/597654Tag"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -1906,11 +1871,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -1937,12 +1902,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 494099,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/101505/109371/813257Color"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -2027,12 +1987,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 895045,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "source/798665/101505/873001Union"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2158,15 +2113,15 @@
             "ioValues": [
                 {
                     "name": "3D shape 1",
-                    "ioValue": 10
+                    "ioValue": ""
                 },
                 {
                     "name": "3D shape 2",
-                    "ioValue": 10
+                    "ioValue": ""
                 },
                 {
                     "name": "3D shape 3",
-                    "ioValue": 10
+                    "ioValue": ""
                 }
             ]
         },
@@ -2334,11 +2289,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -2368,11 +2323,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -2429,12 +2384,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 489763,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/437533/250669/556069/254669Assembly"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -2536,11 +2486,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -2578,7 +2528,7 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -2666,15 +2616,15 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 5",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -2684,12 +2634,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 969012,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/437533/250669/847798Group"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -2856,11 +2801,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": "source/798665/437533/954211/842401/334405Translate"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": "source/798665/437533/954211/842401/466623Difference"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
@@ -2868,15 +2813,15 @@
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ],
                                     "closedSelection": 0
@@ -3060,12 +3005,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 330923,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "source/798665/437533/954211/842401/673183/187258Translate"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -3114,12 +3054,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 337106,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/437533/954211/842401/811798Difference"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -3224,11 +3159,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -3322,11 +3257,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": "source/798665/437533/954211/598374/977581Translate"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": "source/798665/437533/954211/598374/419652Difference"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
@@ -3334,15 +3269,15 @@
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ],
                                     "closedSelection": 0
@@ -3539,12 +3474,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 330923,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "source/798665/437533/954211/598374/642275/187258Translate"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -3580,12 +3510,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 973897,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/437533/954211/598374/801944Difference"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -3740,11 +3665,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -3757,11 +3682,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -3919,15 +3844,15 @@
                                             "ioValues": [
                                                 {
                                                     "name": "3D shape 1",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 },
                                                 {
                                                     "name": "3D shape 2",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 },
                                                 {
                                                     "name": "3D shape 3",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 }
                                             ]
                                         },
@@ -3962,12 +3887,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 859999,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "source/798665/437533/954211/665848/594180/745845Group"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -4093,11 +4013,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -4110,15 +4030,15 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -4208,12 +4128,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 261743,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/437533/954211/665848/570338Group"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -4568,12 +4483,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 330923,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "source/798665/437533/954211/714734/653018/187258Translate"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -4805,12 +4715,7 @@
                                                     "x": 0.9853587115666179,
                                                     "y": 0.5,
                                                     "uniqueID": 330923,
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "number or geometry",
-                                                            "ioValue": "source/798665/437533/954211/714734/239615/642275/187258Translate"
-                                                        }
-                                                    ]
+                                                    "ioValues": []
                                                 }
                                             ],
                                             "allConnectors": [
@@ -4885,12 +4790,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 973897,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "source/798665/437533/954211/714734/239615/924530Color"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -4971,11 +4871,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -4985,12 +4885,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 123811,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/437533/954211/714734/906962Group"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -5263,11 +5158,11 @@
                                             "ioValues": [
                                                 {
                                                     "name": "3D shape 2",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 },
                                                 {
                                                     "name": "3D shape 3",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 }
                                             ]
                                         },
@@ -5369,11 +5264,11 @@
                                             "ioValues": [
                                                 {
                                                     "name": "3D shape 3",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 },
                                                 {
                                                     "name": "3D shape 5",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 }
                                             ]
                                         },
@@ -5400,12 +5295,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 489763,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "source/798665/437533/954211/391538/574006/671180Translate"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -5646,11 +5536,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -5663,27 +5553,27 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 5",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 6",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 7",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 8",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 9",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 10",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -5808,11 +5698,11 @@
                                             "ioValues": [
                                                 {
                                                     "name": "3D shape 1",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 },
                                                 {
                                                     "name": "3D shape 2",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 }
                                             ]
                                         },
@@ -5825,11 +5715,11 @@
                                             "ioValues": [
                                                 {
                                                     "name": "3D shape 3",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 },
                                                 {
                                                     "name": "3D shape 4",
-                                                    "ioValue": 10
+                                                    "ioValue": ""
                                                 }
                                             ]
                                         },
@@ -5886,12 +5776,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 489763,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "source/798665/437533/954211/391538/811659/254669Assembly"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -6186,12 +6071,7 @@
                                             "x": 0.9853587115666179,
                                             "y": 0.5,
                                             "uniqueID": 311554,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "source/798665/437533/954211/391538/171494/688448Extrude"
-                                                }
-                                            ]
+                                            "ioValues": []
                                         }
                                     ],
                                     "allConnectors": [
@@ -6241,12 +6121,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 554657,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/437533/954211/391538/536304Group"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 },
                                 {
                                     "atomType": "Group",
@@ -6257,11 +6132,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 }
@@ -6463,12 +6338,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 312775,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/437533/954211/641683Translate"
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Stl",
@@ -6635,23 +6505,23 @@
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 2",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 4",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 5",
-                            "ioValue": 10
+                            "ioValue": ""
                         }
                     ]
                 },
@@ -6728,11 +6598,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": "source/798665/437533/506892/835199Translate"
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": "source/798665/437533/506892/248414Circle"
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
@@ -6740,15 +6610,15 @@
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ],
                             "closedSelection": 0
@@ -6835,11 +6705,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -6955,12 +6825,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 827057,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/437533/506892/808170Tag"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -7113,11 +6978,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": "source/798665/437533/817310/795099/916111Circle"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": "source/798665/437533/817310/795099/134039Translate"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
@@ -7125,15 +6990,15 @@
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ],
                                     "closedSelection": 0
@@ -7219,11 +7084,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": "source/798665/437533/817310/795099/369541Translate"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": "source/798665/437533/817310/795099/299913Circle"
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
@@ -7231,15 +7096,15 @@
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ],
                                     "closedSelection": 0
@@ -7346,11 +7211,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -7374,12 +7239,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 528974,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/437533/817310/795099/495271Group"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -7502,11 +7362,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -7610,12 +7470,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 163075,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/437533/817310/192872/138597Translate"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -7682,12 +7537,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 301731,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/437533/817310/105931Tag"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -7825,11 +7675,11 @@
             "ioValues": [
                 {
                     "name": "3D shape 1",
-                    "ioValue": 10
+                    "ioValue": ""
                 },
                 {
                     "name": "3D shape 3",
-                    "ioValue": 10
+                    "ioValue": ""
                 }
             ]
         },
@@ -7973,15 +7823,15 @@
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 2",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
+                            "ioValue": ""
                         }
                     ]
                 },
@@ -8242,11 +8092,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": "source/798665/438344/633750/104327Move"
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": "source/798665/438344/633750/897613Move"
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
@@ -8254,15 +8104,15 @@
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ],
                             "closedSelection": 0
@@ -8325,11 +8175,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -8367,11 +8217,11 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -8381,12 +8231,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 285011,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/438344/633750/744012Move"
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Move",
@@ -8580,15 +8425,15 @@
                     "ioValues": [
                         {
                             "name": "3D shape 2",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 4",
-                            "ioValue": 10
+                            "ioValue": ""
                         }
                     ]
                 },
@@ -8601,15 +8446,15 @@
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 4",
-                            "ioValue": 10
+                            "ioValue": ""
                         }
                     ]
                 },
@@ -8740,15 +8585,15 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 4",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -8808,12 +8653,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 134544,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/438344/487840/609201Extrude"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -9250,15 +9090,15 @@
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 2",
-                            "ioValue": 10
+                            "ioValue": ""
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
+                            "ioValue": ""
                         }
                     ]
                 },
@@ -9447,11 +9287,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 4",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 5",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -9512,12 +9352,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 816242,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/388087/453187/915459/804118Difference"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -9598,7 +9433,7 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -9633,12 +9468,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 591526,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/388087/453187/561097Translate"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -9776,15 +9606,15 @@
                             "ioValues": [
                                 {
                                     "name": "3D shape 1",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
+                                    "ioValue": ""
                                 }
                             ]
                         },
@@ -9838,6 +9668,10 @@
                                         {
                                             "name": "Spacing",
                                             "ioValue": 20
+                                        },
+                                        {
+                                            "name": "Shape",
+                                            "ioValue": 10
                                         },
                                         {
                                             "name": "Number",
@@ -9939,11 +9773,11 @@
                                     "ioValues": [
                                         {
                                             "name": "3D shape 1",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         },
                                         {
                                             "name": "3D shape 2",
-                                            "ioValue": 10
+                                            "ioValue": ""
                                         }
                                     ]
                                 },
@@ -10106,12 +9940,7 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 242607,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "source/798665/388087/214312/885531/923700Difference"
-                                        }
-                                    ]
+                                    "ioValues": []
                                 }
                             ],
                             "allConnectors": [
@@ -10238,12 +10067,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 145993,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/388087/214312/380604Union"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -10346,12 +10170,7 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 816242,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": "source/798665/388087/171460/282379Code"
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -10398,12 +10217,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 363300,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "source/798665/388087/601239Move"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
