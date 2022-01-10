@@ -2173,8 +2173,8 @@
         {
             "atomType": "Molecule",
             "name": "Dust Collection",
-            "x": 0.02683982683982684,
-            "y": 0.6538461538461539,
+            "x": 0.023809523809523808,
+            "y": 0.6378205128205129,
             "uniqueID": 437533,
             "ioValues": [],
             "topLevel": false,
