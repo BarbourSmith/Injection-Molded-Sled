@@ -2141,7 +2141,7 @@
             "ioValues": [
                 {
                     "name": "3D shape 1",
-                    "ioValue": ""
+                    "ioValue": "source/798665/437533Molecule"
                 },
                 {
                     "name": "3D shape 2",
@@ -7730,7 +7730,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 827017,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "source/798665/437533/684257Assembly"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
