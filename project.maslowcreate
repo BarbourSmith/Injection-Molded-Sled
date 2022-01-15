@@ -2173,8 +2173,8 @@
         {
             "atomType": "Molecule",
             "name": "Dust Collection",
-            "x": 0.025793650793650796,
-            "y": 0.6057692307692308,
+            "x": 0.02843915343915344,
+            "y": 0.6217948717948718,
             "uniqueID": 437533,
             "ioValues": [],
             "topLevel": false,
@@ -2785,8 +2785,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.25627705627705627,
-                    "y": 0.21153846153846154,
+                    "x": 0.25462962962962965,
+                    "y": 0.22115384615384617,
                     "uniqueID": 510547,
                     "ioValues": [
                         {
@@ -2802,8 +2802,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Dust Hose Port",
-                    "x": 0.16617862371888725,
-                    "y": 0.3969465648854962,
+                    "x": 0.16600529100529102,
+                    "y": 0.4166666666666667,
                     "uniqueID": 954211,
                     "ioValues": [],
                     "topLevel": false,
@@ -6612,6 +6612,23 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
+                    "x": 0.2585978835978836,
+                    "y": 0.40384615384615385,
+                    "uniqueID": 549061,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/798665/437533/954211Molecule"
+                        },
+                        {
+                            "name": "tag",
+                            "ioValue": "Plastic"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
                     "x": 0.08272327964860908,
                     "y": 0.5954198473282443,
                     "uniqueID": 159870,
@@ -6646,11 +6663,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 4",
+                            "name": "3D shape 6",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 5",
+                            "name": "3D shape 7",
                             "ioValue": 10
                         }
                     ]
@@ -7750,16 +7767,23 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
+                    "ap2Name": "3D shape 7",
                     "ap2Primary": false,
                     "ap1ID": 510547,
                     "ap2ID": 684257
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 954211,
+                    "ap2ID": 549061
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": 549061,
                     "ap2ID": 684257
                 },
                 {
