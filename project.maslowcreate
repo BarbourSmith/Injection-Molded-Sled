@@ -8200,7 +8200,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 150
+                            "ioValue": 60
                         }
                     ]
                 },
@@ -8992,7 +8992,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 60
+                            "ioValue": 180
                         }
                     ]
                 },
@@ -9241,6 +9241,31 @@
                         {
                             "name": "z-axis degrees",
                             "ioValue": -30
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.3852813852813853,
+                    "y": 0.40705128205128205,
+                    "uniqueID": 600509,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/798665/438344/269235Move"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -60
                         }
                     ]
                 },
@@ -9769,31 +9794,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.3852813852813853,
-                    "y": 0.44230769230769235,
-                    "uniqueID": 600509,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "source/798665/438344/269235Move"
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 60
                         }
                     ]
                 },
@@ -10328,6 +10328,13 @@
                     "ap2ID": 872259
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 600509,
+                    "ap2ID": 872259
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -10354,13 +10361,6 @@
                     "ap2Primary": false,
                     "ap1ID": 895476,
                     "ap2ID": 230112
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 600509,
-                    "ap2ID": 872259
                 },
                 {
                     "ap1Name": "geometry",
@@ -10426,8 +10426,8 @@
         {
             "atomType": "Molecule",
             "name": "Initial Splitter",
-            "x": 0.3757575757575758,
-            "y": 0.766025641025641,
+            "x": 0.38441558441558443,
+            "y": 0.7788461538461539,
             "uniqueID": 577368,
             "ioValues": [
                 {
@@ -10851,7 +10851,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 60
+                            "ioValue": 180
                         }
                     ]
                 },
@@ -12228,8 +12228,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7817460317460317,
-            "y": 0.4358974358974359,
+            "x": 0.7852813852813852,
+            "y": 0.43910256410256415,
             "uniqueID": 187124,
             "ioValues": [
                 {
@@ -12327,7 +12327,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 60
+                            "ioValue": 180
                         }
                     ]
                 },
