@@ -2848,12 +2848,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 505396,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "source/798665/681817/684452Difference"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -8987,12 +8982,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 505396,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "source/798665/548322/893834Difference"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -10820,12 +10810,7 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 505396,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "source/798665/577368/893834Difference"
-                        }
-                    ]
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -12009,8 +11994,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Solid Sled",
-                    "x": 0.4956076134699854,
-                    "y": 0.7748091603053435,
+                    "x": 0.49603174603174605,
+                    "y": 0.7724358974358974,
                     "uniqueID": 171460,
                     "ioValues": [],
                     "topLevel": false,
@@ -12022,7 +12007,7 @@
                             "y": 0.6185897435897436,
                             "uniqueID": 282379,
                             "ioValues": [],
-                            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1];\n\nconst radius = 15;\n\nconst spunShape = Hull(\n  Box(237/2, 1)\n    .y(18)\n    .x(237 / 4 + 63/2),\n  Arc(radius)\n    .y(radius / 2)\n    .x(radius / 2 + 63/2),\n  Arc(radius)\n    .y(radius / 2)\n    .x(300/2 - radius / 2)\n);\n\nreturn spunShape\n  .rx(0.25)\n  .loop(seq((a) => rz(a), { by: 1 / 50, upto: 1 }));\n"
+                            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1];\n\nconst radius = 15;\nconst sledOD = 340;\nconst sledID = 63;\n\nconst spunShape = Hull(\n  Box((sledOD - sledID) / 2, 1)\n    .y(18)\n    .x((sledOD - sledID) / 4 + sledID / 2),\n  Arc(radius)\n    .y(radius / 2)\n    .x(radius / 2 + sledID / 2),\n  Arc(radius)\n    .y(radius / 2)\n    .x(sledOD / 2 - radius / 2)\n);\n\nreturn spunShape\n  .rx(0.25)\n  .loop(seq((a) => rz(a), { by: 1 / 50, upto: 1 }));\n"
                         },
                         {
                             "atomType": "Output",
@@ -12187,8 +12172,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7837301587301588,
-            "y": 0.4487179487179487,
+            "x": 0.7870370370370371,
+            "y": 0.44551282051282054,
             "uniqueID": 187124,
             "ioValues": [
                 {
@@ -12701,6 +12686,19 @@
             "unitsIndex": 0
         },
         {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.8220899470899472,
+            "y": 0.7147435897435898,
+            "uniqueID": 190316,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/798665/187124ExtractTag"
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -12710,19 +12708,6 @@
                 {
                     "name": "number or geometry",
                     "ioValue": "source/798665/501488Rectangle"
-                }
-            ]
-        },
-        {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.8242424242424243,
-            "y": 0.7371794871794872,
-            "uniqueID": 190316,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "source/798665/187124ExtractTag"
                 }
             ]
         }
