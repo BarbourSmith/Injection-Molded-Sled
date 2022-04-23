@@ -4,6 +4,3 @@
 
 ![](/project.svg)
 
-This move can get deleted
-
-
