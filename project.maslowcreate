@@ -9001,8 +9001,8 @@
         {
             "atomType": "Molecule",
             "name": "Splitter",
-            "x": 0.6785714285714286,
-            "y": 0.20512820512820512,
+            "x": 0.6792328042328042,
+            "y": 0.22461538461538463,
             "uniqueID": 438344,
             "ioValues": [
                 {
@@ -9727,7 +9727,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 180
+                            "ioValue": 300
                         }
                     ]
                 },
@@ -9766,10 +9766,6 @@
                         {
                             "name": "3D shape 4",
                             "ioValue": "source/798665/438344/895476Move"
-                        },
-                        {
-                            "name": "3D shape 7",
-                            "ioValue": "source/798665/438344/872400Move"
                         }
                     ]
                 },
@@ -10100,7 +10096,7 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.6355820105820106,
+                    "x": 0.6309523809523809,
                     "y": 0.7015384615384614,
                     "uniqueID": 511857,
                     "ioValues": [
@@ -10336,13 +10332,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 7",
-                    "ap2Primary": false,
-                    "ap1ID": 872400,
-                    "ap2ID": 230112
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 597267,
@@ -10356,8 +10345,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7552910052910052,
-            "y": 0.40307692307692305,
+            "x": 0.7539682539682541,
+            "y": 0.3846153846153846,
             "uniqueID": 953284,
             "ioValues": [
                 {
@@ -12669,8 +12658,8 @@
         {
             "atomType": "Stl",
             "name": "Stl",
-            "x": 0.8564814814814814,
-            "y": 0.6892307692307692,
+            "x": 0.8518518518518517,
+            "y": 0.6984615384615385,
             "uniqueID": 190316,
             "ioValues": [
                 {
