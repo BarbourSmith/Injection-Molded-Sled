@@ -2183,7 +2183,7 @@
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 0.3558201058201058,
-                    "y": 0.4134615384615385,
+                    "y": 0.40307692307692305,
                     "uniqueID": 893834,
                     "ioValues": [
                         {
@@ -2217,7 +2217,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 60
+                            "ioValue": -60
                         }
                     ]
                 },
@@ -2506,7 +2506,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": -30
+                            "ioValue": 150
                         }
                     ]
                 },
@@ -8939,7 +8939,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 120
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -9134,10 +9134,6 @@
                         {
                             "name": "3D shape 3",
                             "ioValue": "source/798665/438344/467927Move"
-                        },
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": "source/798665/438344/802165Move"
                         }
                     ]
                 },
@@ -9727,7 +9723,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 300
+                            "ioValue": 420
                         }
                     ]
                 },
@@ -9766,6 +9762,10 @@
                         {
                             "name": "3D shape 4",
                             "ioValue": "source/798665/438344/895476Move"
+                        },
+                        {
+                            "name": "3D shape 8",
+                            "ioValue": "source/798665/438344/872400Move"
                         }
                     ]
                 },
@@ -10227,13 +10227,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 802165,
-                    "ap2ID": 980580
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 980580,
@@ -10329,6 +10322,13 @@
                     "ap2Primary": true,
                     "ap1ID": 872400,
                     "ap2ID": 597267
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 8",
+                    "ap2Primary": false,
+                    "ap1ID": 872400,
+                    "ap2ID": 230112
                 },
                 {
                     "ap1Name": "geometry",
@@ -10782,7 +10782,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 180
+                            "ioValue": 60
                         }
                     ]
                 },
@@ -12258,7 +12258,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 180
+                            "ioValue": 60
                         }
                     ]
                 },
