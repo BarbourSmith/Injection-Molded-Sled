@@ -879,7 +879,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 14
+                            "ioValue": 19
                         }
                     ]
                 },
@@ -950,8 +950,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5171957671957672,
-                    "y": 0.40064102564102566,
+                    "x": 0.5198412698412698,
+                    "y": 0.37538461538461537,
                     "uniqueID": 415241,
                     "ioValues": [
                         {
@@ -975,8 +975,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Clamp",
-                    "x": 0.2554112554112554,
-                    "y": 0.6506410256410257,
+                    "x": 0.255952380952381,
+                    "y": 0.6369230769230769,
                     "uniqueID": 751113,
                     "ioValues": [],
                     "topLevel": false,
@@ -984,8 +984,8 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.1903367496339678,
-                            "y": 0.24521072796934865,
+                            "x": 0.19113756613756613,
+                            "y": 0.23076923076923078,
                             "uniqueID": 308263,
                             "ioValues": [
                                 {
@@ -998,7 +998,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 9.5
+                                    "ioValue": 10.5
                                 },
                                 {
                                     "name": "zDist",
@@ -1057,7 +1057,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 9.5
+                                    "ioValue": 10.5
                                 },
                                 {
                                     "name": "zDist",
@@ -1219,7 +1219,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 9.5
+                                            "ioValue": 10.5
                                         },
                                         {
                                             "name": "zDist",
@@ -1547,8 +1547,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Braces",
-                    "x": 0.28225108225108225,
-                    "y": 0.8557692307692308,
+                    "x": 0.2777777777777778,
+                    "y": 0.8830769230769231,
                     "uniqueID": 285733,
                     "ioValues": [],
                     "topLevel": false,
@@ -1587,7 +1587,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 2
+                                    "ioValue": 6
                                 },
                                 {
                                     "name": "y length",
@@ -2131,44 +2131,6 @@
             "fileTypeVersion": 1,
             "simplify": false,
             "unitsIndex": 0
-        },
-        {
-            "atomType": "Group",
-            "name": "Group",
-            "x": 0.26521164021164023,
-            "y": 0.3557692307692307,
-            "uniqueID": 309891,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": "source/798665/437533Molecule"
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": "source/798665/101505Molecule"
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": "source/798665/376066Molecule"
-                }
-            ]
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.43320105820105814,
-            "y": 0.22756410256410253,
-            "uniqueID": 136997,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": "source/798665/388087Molecule"
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": "source/798665/309891Group"
-                }
-            ]
         },
         {
             "atomType": "Molecule",
@@ -8584,8 +8546,8 @@
         {
             "atomType": "Molecule",
             "name": "Initial Splitter",
-            "x": 0.39153439153439157,
-            "y": 0.5784615384615385,
+            "x": 0.38822751322751325,
+            "y": 0.5723076923076923,
             "uniqueID": 548322,
             "ioValues": [
                 {
@@ -8982,7 +8944,12 @@
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "uniqueID": 505396,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "source/798665/548322/893834Difference"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -10384,8 +10351,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.7541899441340782,
-            "y": 0.38769230769230767,
+            "x": 0.7552910052910052,
+            "y": 0.40307692307692305,
             "uniqueID": 953284,
             "ioValues": [
                 {
@@ -10878,8 +10845,8 @@
         {
             "atomType": "Molecule",
             "name": "Body",
-            "x": 0.06878306878306878,
-            "y": 0.8685897435897436,
+            "x": 0.06679894179894179,
+            "y": 0.8646153846153847,
             "uniqueID": 388087,
             "ioValues": [],
             "topLevel": false,
@@ -12015,8 +11982,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Solid Sled",
-                    "x": 0.501984126984127,
-                    "y": 0.7507692307692307,
+                    "x": 0.509920634920635,
+                    "y": 0.7538461538461539,
                     "uniqueID": 171460,
                     "ioValues": [],
                     "topLevel": false,
@@ -12719,24 +12686,10 @@
     "allConnectors": [
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 376066,
-            "ap2ID": 309891
-        },
-        {
-            "ap1Name": "Geometry",
             "ap2Name": "Shape",
             "ap2Primary": false,
             "ap1ID": 376066,
             "ap2ID": 681817
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 101505,
-            "ap2ID": 309891
         },
         {
             "ap1Name": "Geometry",
@@ -12746,25 +12699,11 @@
             "ap2ID": 548322
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 309891,
-            "ap2ID": 136997
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 4",
             "ap2Primary": false,
             "ap1ID": 681817,
             "ap2ID": 203695
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 437533,
-            "ap2ID": 309891
         },
         {
             "ap1Name": "Geometry",
@@ -12807,13 +12746,6 @@
             "ap2Primary": false,
             "ap1ID": 577368,
             "ap2ID": 203695
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 388087,
-            "ap2ID": 136997
         },
         {
             "ap1Name": "Geometry",
